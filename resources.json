@@ -1,0 +1,292 @@
+[
+  {
+    "id": "stack-of-tasks-pinocchio",
+    "title": "Pinocchio",
+    "categories": [
+      "control",
+      "algorithms"
+    ],
+    "tags": [
+      "Kinematics",
+      "Dynamics",
+      "C++",
+      "Python"
+    ],
+    "description": "Rigid-body dynamics and kinematics algorithms for robotics, including model-based control research.",
+    "descriptionTh": "อัลกอริทึม Dynamics และ Kinematics สำหรับหุ่นยนต์และงานวิจัยควบคุมด้วยโมเดล",
+    "source": "upstream",
+    "owner": "stack-of-tasks",
+    "url": "https://github.com/stack-of-tasks/pinocchio",
+    "upstream": "https://github.com/stack-of-tasks/pinocchio",
+    "license": "BSD-2-Clause",
+    "verifiedOn": "2026-10-10",
+    "key": "stack-of-tasks/pinocchio"
+  },
+  {
+    "id": "RobotLocomotion-drake",
+    "title": "Drake",
+    "categories": [
+      "control",
+      "algorithms"
+    ],
+    "tags": [
+      "Dynamics",
+      "Optimization",
+      "Planning"
+    ],
+    "description": "Model-based robotics toolbox for dynamics, optimization, planning and control.",
+    "descriptionTh": "ชุดเครื่องมือหุ่นยนต์ที่ใช้โมเดล สำหรับ Dynamics, Optimization, Planning และ Control",
+    "source": "upstream",
+    "owner": "RobotLocomotion",
+    "url": "https://github.com/RobotLocomotion/drake",
+    "upstream": "https://github.com/RobotLocomotion/drake",
+    "license": "NOASSERTION",
+    "verifiedOn": "2026-10-10",
+    "key": "RobotLocomotion/drake"
+  },
+  {
+    "id": "leggedrobotics-rsl_rl",
+    "key": "leggedrobotics/rsl_rl",
+    "title": "RSL RL",
+    "description": "Learning-algorithm implementations used in robotics training workflows.",
+    "descriptionTh": "อัลกอริทึมการเรียนรู้สำหรับเวิร์กโฟลว์ฝึกหุ่นยนต์",
+    "categories": [
+      "learning",
+      "algorithms"
+    ],
+    "tags": [
+      "RL",
+      "Training",
+      "Robotics"
+    ],
+    "source": "upstream",
+    "owner": "leggedrobotics",
+    "url": "https://github.com/leggedrobotics/rsl_rl",
+    "upstream": "https://github.com/leggedrobotics/rsl_rl",
+    "license": "NOASSERTION",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "moveit-moveit2",
+    "key": "moveit/moveit2",
+    "title": "MoveIt 2",
+    "description": "ROS 2 motion-planning and manipulation framework.",
+    "descriptionTh": "เฟรมเวิร์ก Motion Planning และ Manipulation สำหรับ ROS 2",
+    "categories": [
+      "manipulation",
+      "ros",
+      "algorithms"
+    ],
+    "tags": [
+      "ROS 2",
+      "Motion planning",
+      "Manipulation"
+    ],
+    "source": "upstream",
+    "owner": "moveit",
+    "url": "https://github.com/moveit/moveit2",
+    "upstream": "https://github.com/moveit/moveit2",
+    "license": "BSD-3-Clause",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "stack-of-tasks-tsid",
+    "key": "stack-of-tasks/tsid",
+    "title": "TSID",
+    "description": "Task-space inverse-dynamics control using Pinocchio, with robotics exercises and examples.",
+    "descriptionTh": "ควบคุมด้วย Task-space Inverse Dynamics บน Pinocchio พร้อมแบบฝึกและตัวอย่างหุ่นยนต์",
+    "tags": [
+      "Inverse dynamics",
+      "Whole-body control",
+      "QP"
+    ],
+    "categories": [
+      "algorithms",
+      "control"
+    ],
+    "source": "upstream",
+    "owner": "stack-of-tasks",
+    "url": "https://github.com/stack-of-tasks/tsid",
+    "upstream": "https://github.com/stack-of-tasks/tsid",
+    "license": "BSD-2-Clause",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "loco-3d-crocoddyl",
+    "key": "loco-3d/crocoddyl",
+    "title": "Crocoddyl",
+    "description": "Contact-aware optimal control with DDP-family solvers for robot motion.",
+    "descriptionTh": "Optimal Control ที่คำนึงถึง Contact โดยใช้ Solver ตระกูล DDP สำหรับการเคลื่อนไหวหุ่นยนต์",
+    "tags": [
+      "DDP",
+      "Optimal control",
+      "Contacts"
+    ],
+    "categories": [
+      "algorithms",
+      "control"
+    ],
+    "source": "upstream",
+    "owner": "loco-3d",
+    "url": "https://github.com/loco-3d/crocoddyl",
+    "upstream": "https://github.com/loco-3d/crocoddyl",
+    "license": "BSD-3-Clause",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "leggedrobotics-ocs2",
+    "key": "leggedrobotics/ocs2",
+    "title": "OCS2",
+    "description": "Optimal-control and MPC tooling for systems with switching dynamics.",
+    "descriptionTh": "เครื่องมือ Optimal Control และ MPC สำหรับระบบที่มีการสลับ Dynamics",
+    "tags": [
+      "MPC",
+      "Optimal control",
+      "Switched systems"
+    ],
+    "categories": [
+      "algorithms",
+      "control"
+    ],
+    "source": "upstream",
+    "owner": "leggedrobotics",
+    "url": "https://github.com/leggedrobotics/ocs2",
+    "upstream": "https://github.com/leggedrobotics/ocs2",
+    "license": "BSD-3-Clause",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "pink-kinematics-pink",
+    "key": "pink-kinematics/pink",
+    "title": "Pink Inverse Kinematics",
+    "description": "Differential inverse kinematics in Python using Pinocchio and QP solvers.",
+    "descriptionTh": "Differential Inverse Kinematics ใน Python ใช้ Pinocchio และ QP Solver",
+    "tags": [
+      "IK",
+      "Pinocchio",
+      "QP"
+    ],
+    "categories": [
+      "algorithms",
+      "models",
+      "control"
+    ],
+    "source": "upstream",
+    "owner": "pink-kinematics",
+    "url": "https://github.com/pink-kinematics/pink",
+    "upstream": "https://github.com/pink-kinematics/pink",
+    "license": "Apache-2.0",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "ompl-ompl",
+    "key": "ompl/ompl",
+    "title": "OMPL",
+    "description": "Sampling-based motion-planning algorithms; robot collision checking and execution are supplied by integrations.",
+    "descriptionTh": "อัลกอริทึม Motion Planning แบบ Sampling ต้องเชื่อมระบบตรวจ Collision และการสั่งงานของหุ่นยนต์เอง",
+    "tags": [
+      "Motion planning",
+      "RRT",
+      "Sampling"
+    ],
+    "categories": [
+      "algorithms",
+      "manipulation"
+    ],
+    "source": "upstream",
+    "owner": "ompl",
+    "url": "https://github.com/ompl/ompl",
+    "upstream": "https://github.com/ompl/ompl",
+    "license": "See project notices",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "nvlabs-curobo",
+    "key": "NVlabs/curobo",
+    "title": "cuRobo",
+    "description": "GPU-accelerated robot motion-generation tools; verify the API version and supported robot setup upstream.",
+    "descriptionTh": "เครื่องมือสร้างการเคลื่อนไหวหุ่นยนต์ด้วย GPU ตรวจรุ่น API และการตั้งค่าโมเดลที่รองรับจากต้นฉบับ",
+    "tags": [
+      "CUDA",
+      "Trajectory optimization",
+      "Motion planning"
+    ],
+    "categories": [
+      "algorithms",
+      "manipulation"
+    ],
+    "source": "upstream",
+    "owner": "NVlabs",
+    "url": "https://github.com/NVlabs/curobo",
+    "upstream": "https://github.com/NVlabs/curobo",
+    "license": "Apache-2.0",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "osqp-osqp",
+    "key": "osqp/osqp",
+    "title": "OSQP",
+    "description": "Numerical solver for convex quadratic programs, useful as a component in IK and control formulations.",
+    "descriptionTh": "Solver สำหรับ Convex Quadratic Program ใช้เป็นส่วนหนึ่งของการกำหนดปัญหา IK และ Control",
+    "tags": [
+      "QP",
+      "Optimization",
+      "Solver"
+    ],
+    "categories": [
+      "algorithms",
+      "control"
+    ],
+    "source": "upstream",
+    "owner": "osqp",
+    "url": "https://github.com/osqp/osqp",
+    "upstream": "https://github.com/osqp/osqp",
+    "license": "Apache-2.0",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "casadi-casadi",
+    "key": "casadi/casadi",
+    "title": "CasADi",
+    "description": "Symbolic differentiation and optimization tools for formulating nonlinear control and trajectory problems.",
+    "descriptionTh": "เครื่องมืออนุพันธ์เชิงสัญลักษณ์และ Optimization สำหรับกำหนดปัญหา Control และ Trajectory แบบ Nonlinear",
+    "tags": [
+      "NLP",
+      "Automatic differentiation",
+      "MPC"
+    ],
+    "categories": [
+      "algorithms",
+      "control"
+    ],
+    "source": "upstream",
+    "owner": "casadi",
+    "url": "https://github.com/casadi/casadi",
+    "upstream": "https://github.com/casadi/casadi",
+    "license": "LGPL-3.0",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "dlr-rm-stable-baselines3",
+    "key": "DLR-RM/stable-baselines3",
+    "title": "Stable-Baselines3",
+    "description": "PyTorch reinforcement-learning implementations, including PPO, SAC and TD3; supply a compatible task environment.",
+    "descriptionTh": "อัลกอริทึม RL บน PyTorch เช่น PPO, SAC และ TD3 ต้องเตรียม Environment ที่เข้ากันได้",
+    "tags": [
+      "RL",
+      "PPO",
+      "SAC",
+      "TD3"
+    ],
+    "categories": [
+      "algorithms",
+      "learning"
+    ],
+    "source": "upstream",
+    "owner": "DLR-RM",
+    "url": "https://github.com/DLR-RM/stable-baselines3",
+    "upstream": "https://github.com/DLR-RM/stable-baselines3",
+    "license": "MIT",
+    "verifiedOn": "2026-10-10"
+  }
+]
