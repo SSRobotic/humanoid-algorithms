@@ -1,0 +1,4640 @@
+{
+  "slug": "loco-3d/crocoddyl",
+  "source_url": "https://github.com/loco-3d/crocoddyl",
+  "commit": "0d3b1ae9c2f062305f50a01058df12eb28ae0500",
+  "branch": "devel",
+  "snapshot": "all tracked file blobs at the pinned commit",
+  "files": [
+    {
+      "path": ".git-blame-ignore-revs",
+      "sha": "2ae5780b2646b1031f8752a1330a5c77f6fe09ab",
+      "size": 123,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "sha": "ad199948f907146428f3c5da6bc6f6c9d645914e",
+      "size": 826,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature-request.md",
+      "sha": "b11324428cdf1370a622637589a227ae2bf026ec",
+      "size": 614,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "ae093cf7dbf2c61485ba96121cfa9d5b78996201",
+      "size": 137,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/workflows/changelog.yaml",
+      "sha": "54e862c65f058efec44c6d9ae9be09d2bad05917",
+      "size": 331,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/workflows/conda-ci.yml",
+      "sha": "051ab7a00622b3239812d0b1ec8af1695b4e8019",
+      "size": 3907,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/workflows/conda/conda-env.yml",
+      "sha": "480f79044d8785ab0516fc77d774405008780039",
+      "size": 336,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/workflows/nix-ci.yml",
+      "sha": "13299f36972e4d8dd867d7e8d5667a648aa83612",
+      "size": 673,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/workflows/ros2-ci.yaml",
+      "sha": "2637ad07360ae1bd0773adbf2fa4b0873bc68383",
+      "size": 2668,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/workflows/update-flake-lock.yml",
+      "sha": "a9bf505d7c46df68bfecdd10964af3df3a727114",
+      "size": 493,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "sha": "1e278f703bbff382af523e0e1ad2608088fbeb64",
+      "size": 136,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitlab-ci.yml",
+      "sha": "9cc1b2fecbba2409a08e79f33a0d8fdcf743a6b7",
+      "size": 68,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitmodules",
+      "sha": "2b7a4fe10be4def3b75624e91852ee7add08eaa2",
+      "size": 93,
+      "mode": "100644"
+    },
+    {
+      "path": ".pre-commit-config.yaml",
+      "sha": "448fed1d15db7a043aacf8d89658fcf6271ec179",
+      "size": 1027,
+      "mode": "100644"
+    },
+    {
+      "path": ".yapfignore",
+      "sha": "a3ea3e4380f5c42e704dc0c2a8eb2ac352f49bdc",
+      "size": 6,
+      "mode": "100644"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha": "d90246a86fd4ab9e18e1b8ae814fc99a2d727198",
+      "size": 23901,
+      "mode": "100644"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "sha": "b3167200a49102b404b14705729ee4d421d1af0c",
+      "size": 14601,
+      "mode": "100644"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "135f3b12932b3b812726da1ca8f112839aca2326",
+      "size": 4077,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "3e1472f326f76c6543cc032cb8d26c36e7478295",
+      "size": 1628,
+      "mode": "100644"
+    },
+    {
+      "path": "PUBLICATIONS.md",
+      "sha": "53f0e6f6a6f1e6e9877b60e83432ed3f5c8e2b58",
+      "size": 5165,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "sha": "59599ddac7ddf569ba9e14cd8547dab61a978f03",
+      "size": 17223,
+      "mode": "100644"
+    },
+    {
+      "path": "benchmark/CMakeLists.txt",
+      "sha": "ce952350c86ce0026b0fa3e16d3a2741441bd686",
+      "size": 2225,
+      "mode": "100644"
+    },
+    {
+      "path": "benchmark/all_robots.cpp",
+      "sha": "9d01f9b5119008be1511c29f1eae5c325b9ecc37",
+      "size": 25683,
+      "mode": "100644"
+    },
+    {
+      "path": "benchmark/arm_manipulation_optctrl.cpp",
+      "sha": "c09389a27a05ac49185cc7f9367994d5566ccfc1",
+      "size": 3996,
+      "mode": "100644"
+    },
+    {
+      "path": "benchmark/arm_manipulation_optctrl.py",
+      "sha": "c992306b37dc0a09812f0c7e3ebb2893323ca883",
+      "size": 4812,
+      "mode": "100644"
+    },
+    {
+      "path": "benchmark/arm_manipulation_timings.cpp",
+      "sha": "5e45dde7f6f39fdb31f969b442e3a5673d9dec17",
+      "size": 18893,
+      "mode": "100644"
+    },
+    {
+      "path": "benchmark/bipedal_timings.cpp",
+      "sha": "1dbc9f4b91cf12346b687638ba2e9aeeb83950f9",
+      "size": 20289,
+      "mode": "100644"
+    },
+    {
+      "path": "benchmark/bipedal_walk_optctrl.py",
+      "sha": "666371d6d3632394f02b706c100aaf6c289aa7b7",
+      "size": 3550,
+      "mode": "100644"
+    },
+    {
+      "path": "benchmark/boxqp.cpp",
+      "sha": "328dbe56665d9a49b2fef8f36b3cdc7e36d26753",
+      "size": 2416,
+      "mode": "100644"
+    },
+    {
+      "path": "benchmark/factory/arm-kinova.hpp",
+      "sha": "cbd7a1443aee59c2341ca70bfac4f53781c5c8c7",
+      "size": 5185,
+      "mode": "100644"
+    },
+    {
+      "path": "benchmark/factory/arm.hpp",
+      "sha": "b7f1094e214589b478df80c17becf9034515814e",
+      "size": 4977,
+      "mode": "100644"
+    },
+    {
+      "path": "benchmark/factory/legged-robots.hpp",
+      "sha": "26b7303ef7901f67ed42cdac038b83ee64e21c3c",
+      "size": 8066,
+      "mode": "100644"
+    },
+    {
+      "path": "benchmark/factory/robot-ee-names.hpp",
+      "sha": "398142535168280e18c79bf436bac265bc65d896",
+      "size": 1317,
+      "mode": "100644"
+    },
+    {
+      "path": "benchmark/lqr_optctrl.cpp",
+      "sha": "e382e38a5d58dc2c39c3059fd5116c387541a338",
+      "size": 3335,
+      "mode": "100644"
+    },
+    {
+      "path": "benchmark/lqr_optctrl.py",
+      "sha": "b6c17d658e4955883925f2a0f54b3ece793fc45d",
+      "size": 2508,
+      "mode": "100644"
+    },
+    {
+      "path": "benchmark/quadrupedal_gaits_optctrl.cpp",
+      "sha": "6e912c680cfef879f44d09302f6f7d9fcbe87677",
+      "size": 3743,
+      "mode": "100644"
+    },
+    {
+      "path": "benchmark/quadrupedal_gaits_optctrl.py",
+      "sha": "416a434118a406e7a6acd2715d41091de1548d24",
+      "size": 6196,
+      "mode": "100644"
+    },
+    {
+      "path": "benchmark/read_csv.py",
+      "sha": "91315ac8e505b1745acfcb1559cac68c4b492f04",
+      "size": 1867,
+      "mode": "100644"
+    },
+    {
+      "path": "benchmark/unicycle_optctrl.cpp",
+      "sha": "736f430d4b919a58b71c479174e71a88a8354ea6",
+      "size": 3196,
+      "mode": "100644"
+    },
+    {
+      "path": "benchmark/unicycle_optctrl.py",
+      "sha": "fe87dea9d3ffbc4fa14cf246ba0659f1d2df1c04",
+      "size": 2402,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/CMakeLists.txt",
+      "sha": "a762e146e5d8a9171dd7cda6967a3b7cd31df344",
+      "size": 121,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/CMakeLists.txt",
+      "sha": "53899d4bffcc4deffef37e776498f064752785c2",
+      "size": 4893,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/__init__.py",
+      "sha": "6c7c2f5821f3ee8322849da33893e11197092613",
+      "size": 42218,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/__init__.py.in",
+      "sha": "64784a78972e247aa4019dd8dc558899a26bc317",
+      "size": 155,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/action-base.cpp.in",
+      "sha": "ef799ac724a6efe4d8e19d23d4864d2ede12166a",
+      "size": 16342,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/action-base.hpp",
+      "sha": "8c3ed2c7bceb2c5e6fa1eea5a522fe6737453233",
+      "size": 7034,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/actions/diff-lqr.cpp.in",
+      "sha": "833d80e10aca76cb72f9cdec27322f095ca99537",
+      "size": 16116,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/actions/lqr.cpp.in",
+      "sha": "977ce39fcba46c1f4e0fd6932cc2ab49a18a617c",
+      "size": 15027,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/actions/unicycle.cpp.in",
+      "sha": "633a69975fab2978858970ed8d1d09087b711307",
+      "size": 6678,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/activation-base.cpp.in",
+      "sha": "9cd9eced1e3569f49964ae100e45eac06f25149b",
+      "size": 4885,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/activation-base.hpp",
+      "sha": "44dc03b6a897226699fd822a439d3efd14814d71",
+      "size": 2946,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/activations/2norm-barrier.cpp.in",
+      "sha": "bf2ae314039c5ee8e4ed683b39f0795eaf53f1ce",
+      "size": 3499,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/activations/quadratic-barrier.cpp.in",
+      "sha": "779a7f6b3e1ae81a78531cbb6261a7e471e92dd8",
+      "size": 5941,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/activations/quadratic-flat-exp.cpp.in",
+      "sha": "f2b42b05b655285f01172ac2cfd59b843d5d9a77",
+      "size": 3191,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/activations/quadratic-flat-log.cpp.in",
+      "sha": "99d215d6209cb4f5358dfbecccf1778b680e4c2b",
+      "size": 3184,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/activations/quadratic.cpp.in",
+      "sha": "ae2598583e43cd125d3bb61e87360454bbb718fc",
+      "size": 3056,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/activations/smooth-1norm.cpp.in",
+      "sha": "8312bdec39ad0695f160b203b4928ca6f60b7850",
+      "size": 4643,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/activations/smooth-2norm.cpp.in",
+      "sha": "9bd03b4d39ae21b81ab1b804fcd40b4cf9acef36",
+      "size": 3105,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/activations/weighted-quadratic-barrier.cpp.in",
+      "sha": "81caa43b1c70e8274c7ebf25ad58598b56758e16",
+      "size": 4197,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/activations/weighted-quadratic.cpp.in",
+      "sha": "78c514c7affe619300d29d5fc6edb9e27f88be78",
+      "size": 3342,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/activations/weighted-smooth-1norm.cpp.in",
+      "sha": "0236057fdf667137caf75304b31133960b44785e",
+      "size": 4878,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/actuation-base.cpp.in",
+      "sha": "4e3677b724ee71061299685015b84aa975089ec0",
+      "size": 9970,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/actuation-base.hpp",
+      "sha": "da0ffe373a28e59cb4a176e78a8028d481b8238c",
+      "size": 5849,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/actuation/actuation-squashing.cpp.in",
+      "sha": "1207c9c35d07839ba03810320f4b31c283438420",
+      "size": 6664,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/actuation/squashing-base.cpp.in",
+      "sha": "9764bdedd53fd4e6e9f7da8c7108b4261a7f47c3",
+      "size": 5649,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/actuation/squashing-base.hpp",
+      "sha": "01fe481e64710466931a61062bef89ca16dc3edc",
+      "size": 2229,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/actuation/squashing/smooth-sat.cpp.in",
+      "sha": "b83e6923cb0aff9d6966c6445b2a3ae9741e3ee3",
+      "size": 2913,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/codegen/action.cpp.in",
+      "sha": "f13ba5f8c3f0ce0dc1a0689465c77a683e1b6f11",
+      "size": 13188,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/constraint-base.cpp.in",
+      "sha": "53afbd7691b59da2e7c8dbd98515c3cccbc616eb",
+      "size": 11950,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/constraint-base.hpp",
+      "sha": "0c7f11c70e76bcbfae422747940848d52978ea6c",
+      "size": 5847,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/constraints/constraint-manager.cpp.in",
+      "sha": "69c02a6c95ae6d6e6bafd3ce35b9ec9641946190",
+      "size": 17864,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/constraints/residual.cpp.in",
+      "sha": "1cfcfc7db1b1dcc874d9c1f0d65122a4251bae94",
+      "size": 7584,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/control-base.cpp.in",
+      "sha": "711d75f9bafdb4510d61df28c9dae1738ce3018b",
+      "size": 8438,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/control-base.hpp",
+      "sha": "6e5792af90fecd505c231b16befc53c9d87083ed",
+      "size": 6435,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/controls/poly-one.cpp.in",
+      "sha": "6d5edc9bce81a1d7800f9c87bc19351c311f2b1d",
+      "size": 7644,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/controls/poly-two-rk.cpp.in",
+      "sha": "6c06e3ebcca0d767616ecccd3206f2c60cc47257",
+      "size": 8017,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/controls/poly-zero.cpp.in",
+      "sha": "ac17a7a0b1e4c59fdf1f20357bae926e7b2bc218",
+      "size": 5989,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/core.cpp",
+      "sha": "aedf2abcbc9fd01d189a39155cb63745ea16f672",
+      "size": 2699,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/core.hpp",
+      "sha": "22466c08bc05316813e7ed59fe52dfd1a182bb85",
+      "size": 3047,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/cost-base.cpp.in",
+      "sha": "6e3ec0af41c190e618433aec07ec1852dc4eb9a5",
+      "size": 13134,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/cost-base.hpp",
+      "sha": "12966f04f7c59d24a8f59b173647633fc17c1ed7",
+      "size": 6285,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/costs/cost-sum.cpp.in",
+      "sha": "09d4c5faf1c0b4e8d3ebcf939d001af24627c253",
+      "size": 14853,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/costs/residual.cpp.in",
+      "sha": "4138cd1664c77b716dc504020e65bfe982021dde",
+      "size": 6768,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/data-collector-base.cpp.in",
+      "sha": "f6255198ac4468dff317c920feb43992fd4013f4",
+      "size": 1182,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/data/actuation.cpp.in",
+      "sha": "3a3694199bbb1697e2a58e35881a3578d6944953",
+      "size": 1908,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/data/joint.cpp.in",
+      "sha": "d084c631a607ec83748a35a5d3a494207d53a45e",
+      "size": 6431,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/diff-action-base.cpp.in",
+      "sha": "9c28d00b0f6fe2f2256f26dc97176ac7e94db0fc",
+      "size": 14922,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/diff-action-base.hpp",
+      "sha": "9d1462797c5b20a529265449480b7fb39796c041",
+      "size": 6417,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/guidance-base.cpp.in",
+      "sha": "eb991c8e1c17f95d6c870290e830f41969b5d63c",
+      "size": 4751,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/guidance-base.hpp",
+      "sha": "35e74253c42cf3431877799c5d386da47754915a",
+      "size": 2845,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/guidance/componentwise-saturation.cpp.in",
+      "sha": "bf6055e28c4f1f98ecb8305cc0d75676e2afa233",
+      "size": 5808,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/guidance/linear.cpp.in",
+      "sha": "2a30e8b29909f4e9f3f4838580265c66125cc418",
+      "size": 4064,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/guidance/smooth-saturation.cpp.in",
+      "sha": "502f00fcd4ba137b7e23e9af307243dc801cb578",
+      "size": 6442,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/integ-action-base.cpp.in",
+      "sha": "55d89ff25e761267793f348bbd326c987c937367",
+      "size": 8401,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/integ-action-base.hpp",
+      "sha": "1005c7ade31844ec2bb81f85e596e691c02c882b",
+      "size": 5174,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/integrator/euler.cpp.in",
+      "sha": "9389af4dd0c31b3de0fcb2a6d33e731e92a62eca",
+      "size": 8148,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/integrator/rk.cpp.in",
+      "sha": "0080e1a19876fff8f7926dcb822f9248e05ebd1b",
+      "size": 12617,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/numdiff/action.cpp.in",
+      "sha": "fbc58ffc0f1242b8ab2cf9d18282ee3b446db1e6",
+      "size": 7650,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/numdiff/activation.cpp.in",
+      "sha": "72e4bfc47cb5a814e0d9c45855ba33a471b20aa4",
+      "size": 5869,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/numdiff/diff-action.cpp.in",
+      "sha": "eb2589f72019c999edb0fa258bb84286bc007436",
+      "size": 7884,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/numdiff/state.cpp.in",
+      "sha": "cdabdfddc91b5fb1c9780c674246c8981f06f279",
+      "size": 6948,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/optctrl/shooting.cpp.in",
+      "sha": "0b47f5edb76b9c27dd850d9ccc117cb00039d4f3",
+      "size": 9239,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/residual-base.cpp.in",
+      "sha": "a52482ccd7797a1e0b12cc1851ade420c0f6d939",
+      "size": 10928,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/residual-base.hpp",
+      "sha": "6d43eda6e9d19529ad2ed17f1c168ad76840552e",
+      "size": 6815,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/residuals/control.cpp.in",
+      "sha": "80b111c4525f710c235e98d7c4fe8b89e33e55b3",
+      "size": 5390,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/residuals/joint-acceleration.cpp.in",
+      "sha": "2eccf011a1c2b7ffb5f7afdf4e780cf6238c40bc",
+      "size": 6075,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/residuals/joint-effort.cpp.in",
+      "sha": "1ddb0dc40d4d8f9ff64d2c539d787026feb90d20",
+      "size": 6888,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/residuals/task-first-order.cpp.in",
+      "sha": "d49536efd943588c01d86db52871056e5f8a256d",
+      "size": 7455,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/residuals/task-second-order.cpp.in",
+      "sha": "946a6395e9f3e1c18b5ead2ea072acd94f5a9f3f",
+      "size": 10791,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/solver-base.cpp.in",
+      "sha": "8f9159cc0186c8f8e4daf5fe07974cbd5e366f70",
+      "size": 26883,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/solver-base.hpp",
+      "sha": "90f1b52950ac155c89460c42bd35e72a006384fe",
+      "size": 13109,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/solvers/box-ddp.cpp.in",
+      "sha": "1b3d076b58f75ceb69fa23c6852325365c48fed6",
+      "size": 1471,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/solvers/box-fddp.cpp.in",
+      "sha": "b06611b5639afb30a71acb5d1df6cefa590e4c83",
+      "size": 2701,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/solvers/box-qp.cpp.in",
+      "sha": "3ab61cd1fddbe683bf4ffc84b7ce0b24dfe8515e",
+      "size": 7543,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/solvers/ddp.cpp.in",
+      "sha": "cad258d914477577f5d7336a157ce342c69a3c91",
+      "size": 2052,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/solvers/fddp.cpp.in",
+      "sha": "c784f145a0f2ab704c8af75193be5adea3da26fb",
+      "size": 27495,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/solvers/intro.cpp.in",
+      "sha": "3b43681da9e6f5d0f1c7b3672b7c2cc8087d8359",
+      "size": 6008,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/solvers/ipopt.cpp.in",
+      "sha": "afb6f7c8f13ff0103b1170eaaf8af5146be0adb3",
+      "size": 2888,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/solvers/kkt.cpp.in",
+      "sha": "32493d04c31daf8abdcf3b7fb9644808900b4d69",
+      "size": 5598,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/solvers/odyn-sqp.cpp.in",
+      "sha": "87535450177b47eec0b3d0636795260856394ffb",
+      "size": 17573,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/state-base.cpp.in",
+      "sha": "d791e9a803643393f9956569122dd3dc76dc2cb5",
+      "size": 10386,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/state-base.hpp",
+      "sha": "7788b790e89e4d867ce0e13f71ae960a8057e1df",
+      "size": 14331,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/states/euclidean.cpp.in",
+      "sha": "6a61b49603ed69c2eae3ff1d6d5b9290ea0c3cc9",
+      "size": 8194,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/task-base.cpp.in",
+      "sha": "8e0dafedf72ec7c1566d375d01fa4b0ce31ce02a",
+      "size": 10198,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/task-base.hpp",
+      "sha": "c0c6cdcfd1b90a7490b508ea42696d67d540365d",
+      "size": 4487,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/utils/callbacks.cpp.in",
+      "sha": "2b8a1aa7130fed529c2f333d5f5655f4bb7117b4",
+      "size": 2655,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/utils/exception.cpp.in",
+      "sha": "e04b66f5e23d290f8c6b6480586a50b0f4ad078c",
+      "size": 1066,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/utils/exception.hpp",
+      "sha": "a097cbc5285349188f8e11e82e18c24f37763069",
+      "size": 1599,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/utils/stop-watch.cpp.in",
+      "sha": "4222ac13f899f145b630a4bcac4cb0c5fe6509a0",
+      "size": 2620,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/core/utils/stop-watch.hpp",
+      "sha": "5276558ce726fe915c7a3a1ccfcdf2b9f0b61df8",
+      "size": 1085,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/crocoddyl.cpp.in",
+      "sha": "09b0f81a7e5b2aee2bda00d6a80f7224bb29f174",
+      "size": 4319,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/crocoddyl.launch",
+      "sha": "965e39db116c741cf1e06be782a2a2e81ba14a72",
+      "size": 410,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/crocoddyl.rviz",
+      "sha": "14ea88dfde63a56aaa7abf12d71e0945c5178e17",
+      "size": 8539,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/deprecated.py",
+      "sha": "e24a79e0ca08c1665edd9e278d5e4bc2506e488b",
+      "size": 1509,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/fwd.hpp",
+      "sha": "bd33676672b26ee1258ccd551ceac92def529169",
+      "size": 935,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/actions/contact-fwddyn.cpp.in",
+      "sha": "46614dd0628e676a2d934442bf37b781903f2057",
+      "size": 12511,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/actions/contact-invdyn.cpp.in",
+      "sha": "89cf7154af3f84b964b0f762445fcbf47918a5ee",
+      "size": 20129,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/actions/free-fwddyn.cpp.in",
+      "sha": "75ee7935cfad46315b95ad4f726a9b95d6b97bec",
+      "size": 9381,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/actions/free-invdyn.cpp.in",
+      "sha": "89094c0d076a060fdaaed8aabc945ce804271773",
+      "size": 13518,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/actions/impulse-fwddyn.cpp.in",
+      "sha": "56919122dbc9d2af21d2e2c7bdddeb31f1878d3f",
+      "size": 12540,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/actuations/floating-base-propellers.cpp.in",
+      "sha": "fc7ec3dee1fee83119f283f8a06a1632ee47a1b5",
+      "size": 8943,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/actuations/floating-base.cpp.in",
+      "sha": "a5ca75d1ad5e6c74d711bcd8dc36a7ec2845f061",
+      "size": 4756,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/actuations/full.cpp.in",
+      "sha": "a467675c790df3fbaf359b6bbd9eeed0dcc651da",
+      "size": 3980,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/contact-base.cpp.in",
+      "sha": "3db48b5bd347e41771fcc6ec99b105575fcb4d85",
+      "size": 8107,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/contact-base.hpp",
+      "sha": "13833783a27cfcdb5cb431bd728ac90289df87c5",
+      "size": 3790,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/contacts/contact-1d.cpp.in",
+      "sha": "a7b5ec19814295ad98ec965ecce43f73ecd4534b",
+      "size": 11217,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/contacts/contact-2d.cpp.in",
+      "sha": "f68c87cf75da4f5f38d6497006aa59dc22b48a48",
+      "size": 9115,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/contacts/contact-3d.cpp.in",
+      "sha": "8e2b046a43231045c5eebf0b628b5292d8170b0b",
+      "size": 10181,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/contacts/contact-6d.cpp.in",
+      "sha": "f6f2d741f8639eb77c7ea0ec0f2c789beb4c1075",
+      "size": 9222,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/contacts/multiple-contacts.cpp.in",
+      "sha": "f7024868ec1a836e7fae339188e5420b5db6f4e9",
+      "size": 13495,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/cop-support.cpp.in",
+      "sha": "08fa0b86342055e5dda1ba378851d03b837e80ad",
+      "size": 3620,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/data/contacts.cpp.in",
+      "sha": "c9be88a12c963c58b3d6c946aa28888505a551c8",
+      "size": 6934,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/data/impulses.cpp.in",
+      "sha": "b0e4d51bf01a58dfb1df4711dfdd0ec81cb04696",
+      "size": 3334,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/data/multibody.cpp.in",
+      "sha": "d87ca622e456ed6e2a21ac02d1515f78b1bbfb57",
+      "size": 4862,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/force-base.cpp.in",
+      "sha": "884f6dd0b1398d5b0148214a66032d1cdb3fd584",
+      "size": 4010,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/friction-cone.cpp.in",
+      "sha": "bc1f0b76af0472ceae3628c0bad9041324860415",
+      "size": 6330,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/impulse-base.cpp.in",
+      "sha": "85ae8d119fe9035852bc165daf73e869a4a14ea4",
+      "size": 7702,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/impulse-base.hpp",
+      "sha": "13b9d821e179f58a004503eb6d36f6d71ad7123e",
+      "size": 3832,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/impulses/impulse-3d.cpp.in",
+      "sha": "bc74d91af69df1fb091193f0dceb00b849bd4a70",
+      "size": 6703,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/impulses/impulse-6d.cpp.in",
+      "sha": "a8b9d1572ac5e0a0391ae8efddca60d46cc2ee99",
+      "size": 6560,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/impulses/multiple-impulses.cpp.in",
+      "sha": "9691ef0da3fe18d3c271d4e4873dd037e3f95e7a",
+      "size": 12243,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/multibody.cpp.in",
+      "sha": "d9bc56d69209b6f2f28c5cae8430ab0233294ed5",
+      "size": 2075,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/multibody.hpp",
+      "sha": "bbd05fd9c31aa523a61fdd4a66189ed591a5dfdb",
+      "size": 2526,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/residuals/centroidal-momentum.cpp.in",
+      "sha": "d64b5d750b2a9c696d52593aff829f7fd74e47f2",
+      "size": 7605,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/residuals/com-position.cpp.in",
+      "sha": "cf8088b538ff84bab3b39dc404780061e4a1fe11",
+      "size": 6916,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/residuals/contact-control-gravity.cpp.in",
+      "sha": "04dbe60b517d291ca7e4aa16a6438f29139ddf3e",
+      "size": 7054,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/residuals/contact-cop-position.cpp.in",
+      "sha": "fdcf6db5a2a2987de01ff4554ade990d3d003171",
+      "size": 8182,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/residuals/contact-force.cpp.in",
+      "sha": "df6b6f0eeb8cf424193dd8607b3f4ad3ee3647f8",
+      "size": 8200,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/residuals/contact-friction-cone.cpp.in",
+      "sha": "d94bb830dd001c0900d21890795fc3949b35302f",
+      "size": 8064,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/residuals/contact-wrench-cone.cpp.in",
+      "sha": "33d54b6539ee99bee3276875cd1384e433bad779",
+      "size": 7768,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/residuals/control-gravity.cpp.in",
+      "sha": "b2c0ea927d7e08f151a9dcb79947200e2781e5c6",
+      "size": 6669,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/residuals/frame-placement.cpp.in",
+      "sha": "004ebbb8815117c6a13a6a15a9e067a87c915d38",
+      "size": 7972,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/residuals/frame-rotation.cpp.in",
+      "sha": "ea6e0f112a4603e9bb3d897acfd14a331c715239",
+      "size": 8015,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/residuals/frame-translation.cpp.in",
+      "sha": "baeed0a11978e08afadf5588add1a7884b2aca08",
+      "size": 7673,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/residuals/frame-velocity.cpp.in",
+      "sha": "72946a258fe6d6037e7195b1a16de6ec72eb7663",
+      "size": 7634,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/residuals/impulse-com.cpp.in",
+      "sha": "d1599752bb6064a648fd51d8cc2aca9e30a2da8c",
+      "size": 6879,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/residuals/pair-collision.cpp.in",
+      "sha": "23ac4a4138ccf4a5528bc543fbcb617b8e5dbd51",
+      "size": 6866,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/residuals/state.cpp.in",
+      "sha": "a764c8481f4d05c7acedac58a4021a1e7700a226",
+      "size": 5820,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/states/multibody.cpp.in",
+      "sha": "9d8860115d7d43a2dc09fe318aecc6ffea59f4a5",
+      "size": 9386,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/tasks/centroidal-momentum.cpp.in",
+      "sha": "86841f8fdab288ac86075846ba66873012ff6773",
+      "size": 8254,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/tasks/com-position.cpp.in",
+      "sha": "2881d5c054857af93e5f34918cff5d5265404f98",
+      "size": 8958,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/tasks/frame-placement.cpp.in",
+      "sha": "4cf126535e1c709de4612d93c1db0891fd6d9b19",
+      "size": 15712,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/tasks/frame-rotation.cpp.in",
+      "sha": "6f841a43c3a8ab22c0716d4fd7023dfd7c52e2fa",
+      "size": 11248,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/tasks/frame-translation.cpp.in",
+      "sha": "a668ca9b84a7c830d2753f25ad0c2791050de8c5",
+      "size": 14299,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/tasks/joint-position.cpp.in",
+      "sha": "5eb94d57d25b4d32fcc803c2170925337a84d002",
+      "size": 7445,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/multibody/wrench-cone.cpp.in",
+      "sha": "fb1fe07e0826c777e1ab8e474ca98a7a266e47ea",
+      "size": 6525,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/utils/__init__.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/utils/biped.py",
+      "sha": "af0d297acebd6f4aa68a573c268b3d3fc15e69fa",
+      "size": 33220,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/utils/cast.hpp",
+      "sha": "dc05f36d96d98d845b881c8821113726e7990baf",
+      "size": 3129,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/utils/copyable.hpp",
+      "sha": "9811321abd0af42ddd82c6cff250c8e3f4403474",
+      "size": 1299,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/utils/deprecate.hpp",
+      "sha": "eafdc008eb3abb2dfbf0e6b562ee0cb8c4744f0e",
+      "size": 1368,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/utils/humanoid.py",
+      "sha": "4aa670233a717ed3acff26dedeaa4024b1f490ab",
+      "size": 27944,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/utils/map-converter.hpp",
+      "sha": "1491f3359e7f086e75bae3d2ed3f66d656636b64",
+      "size": 5254,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/utils/namespace.hpp",
+      "sha": "5124bfe3aac3759ab1547715e3f934a91dfca9c1",
+      "size": 1509,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/utils/pendulum.py",
+      "sha": "e7cfb90646992be7a07c56b604700f9d25ddd414",
+      "size": 3102,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/utils/printable.hpp",
+      "sha": "25fee4384e02dd0ba5770f6d97a56e6c3d3a3df8",
+      "size": 1015,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/utils/quadruped.py",
+      "sha": "7dc37e22e2ba08dd4031cc780f26b7d74e40f35e",
+      "size": 50867,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/utils/scalar.hpp",
+      "sha": "fcb5e33917bffb9e29d7bc62bec117c3715fd3dd",
+      "size": 796,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/utils/set-converter.hpp",
+      "sha": "fc6d7f6bacd16714793182ab8031b9c958ed4d5b",
+      "size": 5255,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/utils/set_indexing_suite.hpp",
+      "sha": "b05a1bf3dc850cb0398ddba0e3dee72a2bbaf3a4",
+      "size": 5414,
+      "mode": "100644"
+    },
+    {
+      "path": "bindings/python/crocoddyl/utils/vector-converter.hpp",
+      "sha": "d3b701081dfa46eee134bbf5b527021df9b6e855",
+      "size": 708,
+      "mode": "100644"
+    },
+    {
+      "path": "crocoddyl.cmake",
+      "sha": "1decbe43043153ef0a7cd2f442495d70b9af3f82",
+      "size": 3642,
+      "mode": "100644"
+    },
+    {
+      "path": "dependencies.rosinstall",
+      "sha": "d50d9750fbef245eb7fd828c24525ba60a347af0",
+      "size": 121,
+      "mode": "100644"
+    },
+    {
+      "path": "doc/Doxyfile.extra.in",
+      "sha": "2d847e89417e1af6375af139aabc64ec3a9bfa7c",
+      "size": 116763,
+      "mode": "100644"
+    },
+    {
+      "path": "doc/Overview.md",
+      "sha": "2d1a489083dd9987587d457c67a174fd6070187c",
+      "size": 7355,
+      "mode": "100644"
+    },
+    {
+      "path": "doc/bib/budhiraja-ichr18.bib",
+      "sha": "899b80183c302f30beab30c9911065474814c848",
+      "size": 303,
+      "mode": "100644"
+    },
+    {
+      "path": "doc/bib/carpentier-rss18.bib",
+      "sha": "74d1bc73ef0601e4f31ef42ba823ffc23f83027f",
+      "size": 198,
+      "mode": "100644"
+    },
+    {
+      "path": "doc/bib/mastalli-icra20.bib",
+      "sha": "5022f0eafa8ab16d1716604c0bb304031632260d",
+      "size": 406,
+      "mode": "100644"
+    },
+    {
+      "path": "doc/bib/tassa-icra14.bib",
+      "sha": "10424da3c35992e3581c3a025a1a035bb4f0bc73",
+      "size": 270,
+      "mode": "100644"
+    },
+    {
+      "path": "doc/customdoxygen.css",
+      "sha": "0e3416fd32ecbfc5ab2a21d110a1e0afaa333e0e",
+      "size": 373,
+      "mode": "100644"
+    },
+    {
+      "path": "doc/header.html",
+      "sha": "d0e27869b394385bd6cbfcceb19b746091ee6b3e",
+      "size": 2061,
+      "mode": "100644"
+    },
+    {
+      "path": "doc/images/crocoddyl_logo.png",
+      "sha": "b31752980d7402107f47153f9b6c6e4c9e9096a5",
+      "size": 72617,
+      "mode": "100644"
+    },
+    {
+      "path": "doc/images/crocoddyl_logo.svg",
+      "sha": "72dd2549cd4b0c508abff207275ca4881f5fc2ea",
+      "size": 12982,
+      "mode": "100644"
+    },
+    {
+      "path": "doc/images/crocoddyl_thumb.png",
+      "sha": "a4d11a06fbbeefcf2a2ea9a85b24ab8605cd9316",
+      "size": 30976,
+      "mode": "100644"
+    },
+    {
+      "path": "doc/images/crocoddyl_thumb.svg",
+      "sha": "27f16953197a4633505c0dfeb4c07366cc9958cd",
+      "size": 9517,
+      "mode": "100644"
+    },
+    {
+      "path": "doc/references.bib",
+      "sha": "91f0302e7dd57ab7bb5e3a6ec4736b2c63a9ed52",
+      "size": 1231,
+      "mode": "100644"
+    },
+    {
+      "path": "doc/reports/fddp/Makefile",
+      "sha": "120244b2e0cd67965c9b7e0aef33dbd9779f6b31",
+      "size": 2282,
+      "mode": "100644"
+    },
+    {
+      "path": "doc/reports/fddp/root.tex",
+      "sha": "446eca1d707338b578bf671f90854f677e35b237",
+      "size": 37529,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/CMakeLists.txt",
+      "sha": "7a485be7c78abd785728e554efd770306e5d0e4b",
+      "size": 2891,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/__init__.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/aerial_manipulator_fwddyn.py",
+      "sha": "c257c956e10727f6ff6ab134fa69fe92f3b84ae3",
+      "size": 8358,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/aerial_manipulator_invdyn.py",
+      "sha": "3f8dbf12a6b15aedcdc46ca5169bd9f0926c83bf",
+      "size": 8296,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/biped_gaits_fwddyn.py",
+      "sha": "d0a2ea44d0268d3feaa5b497b018c599be19d0be",
+      "size": 7060,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/biped_gaits_invdyn.py",
+      "sha": "cdb4850ef2910f6cc2e27d8903d83cf44feedf99",
+      "size": 7084,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/biped_pose_fwddyn.py",
+      "sha": "532bc925e038cda9aaed0ffccd0423a82a9dbd66",
+      "size": 5257,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/biped_pose_invdyn.py",
+      "sha": "6d0aec5475753d36b8d1fbe1e69f784962124563",
+      "size": 5245,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/biped_walk_ubound.py",
+      "sha": "117816170eb1eb7e2ceeff409fb22e6339e621bf",
+      "size": 4546,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/boxfddp_vs_boxddp.py",
+      "sha": "a657320899fb846a69f5267c7e244555d0751438",
+      "size": 3728,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/double_pendulum_continuous_fwddyn.py",
+      "sha": "49e57eb7b7cdd1f643f73f211e703ee09e92c4ce",
+      "size": 3773,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/double_pendulum_continuous_invdyn.py",
+      "sha": "461329f963415e550e8151a33a641f50c22b9e4c",
+      "size": 3967,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/double_pendulum_fwddyn.py",
+      "sha": "b0347b6f41da5ae92a50efbfca4e0dea629f4fed",
+      "size": 5064,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/double_pendulum_invdyn.py",
+      "sha": "73614493e8744c5281efa619112437d643ef5a21",
+      "size": 5216,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/humanoid_backflip_fwddyn.py",
+      "sha": "7a5bf9ceb3fb471c0840d9403dae74d85ac52723",
+      "size": 2989,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/humanoid_backflip_invdyn.py",
+      "sha": "e84e8b88e642136ceb275ff68c4828a3c0c9ca49",
+      "size": 3010,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/humanoid_bar_fwddyn.py",
+      "sha": "8479eed4f5dc81fa119791b1809e8f3afa9f524f",
+      "size": 4327,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/humanoid_bar_invdyn.py",
+      "sha": "fb9218f5d7b7a13c29b7eee7733a3556e49757e2",
+      "size": 4348,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/humanoid_frontflip_fwddyn.py",
+      "sha": "056179b9f08e82dae95c28f4126af56f03c68f82",
+      "size": 3002,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/humanoid_frontflip_invdyn.py",
+      "sha": "838e5d7103a0cfd1135b3fc088845f8c2ce13fad",
+      "size": 3080,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/humanoid_handstanding_fwddyn.py",
+      "sha": "f323aac504a5949607164da64c9fdb06a8e72086",
+      "size": 4710,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/humanoid_handstanding_invdyn.py",
+      "sha": "b5a9927c95dd9233e3bc7837a5d8d2c9d621259f",
+      "size": 4731,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/humanoid_manipulation.py",
+      "sha": "90140307ab7351bdfeaa800eea982318954a73cd",
+      "size": 7297,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/humanoid_manipulation_ubound.py",
+      "sha": "7e0a1bee396bedccb0a624a18ed540d8e593f660",
+      "size": 7385,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/humanoid_monkey_bar_fwddyn.py",
+      "sha": "a25b264e27d21bdb7b14a2740e4c247c2dd273a1",
+      "size": 3544,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/humanoid_monkey_bar_invdyn.py",
+      "sha": "3f4542003c86721a26404ff1c69216959bc23fdf",
+      "size": 3565,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/humanoid_taichi.py",
+      "sha": "cd6b103ac3a5dc6d3f3acd6b2061f7b1b0230dab",
+      "size": 9456,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/humanoid_walking_on_hands_fwddyn.py",
+      "sha": "903a3f0b7b4cb276f91360f7414e6f4af7f1c9ab",
+      "size": 3681,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/humanoid_walking_on_hands_invdyn.py",
+      "sha": "825c0d59f8a770e2045e15504fbb15fbc16ae86f",
+      "size": 3702,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/aerial_manipulator_fwddyn.log",
+      "sha": "abcc0729e77f138059d46b52cfebbc848ac34f7c",
+      "size": 11829,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/aerial_manipulator_invdyn.log",
+      "sha": "e8a334dec5628f811257b51b93c47aab090d4ff7",
+      "size": 13548,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/biped_gaits_fwddyn.log",
+      "sha": "42dccd2feca8c9b088ba13124bbb64b7274e83ce",
+      "size": 54760,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/biped_gaits_invdyn.log",
+      "sha": "fe4dddeadca625dddded4bdce944774ec8939748",
+      "size": 55534,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/biped_pose_fwddyn.log",
+      "sha": "d5d45ed4311875b1974fd82e7be026432293777d",
+      "size": 15457,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/biped_pose_invdyn.log",
+      "sha": "84c67af2c8187a7c88b30f6c62b1fd407749c9a9",
+      "size": 17170,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/biped_walk_ubound.log",
+      "sha": "d1d5065fe39042d9b6447b0c87d3a5ad5f38e17f",
+      "size": 35461,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/boxfddp_vs_boxddp.log",
+      "sha": "38d07ce1392f2cbe1b4987222358f6fdc5069a00",
+      "size": 7528,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/check_logfiles.sh",
+      "sha": "e9d59826a64a562fe66235a13fde00169a05bafb",
+      "size": 463,
+      "mode": "100755"
+    },
+    {
+      "path": "examples/log/double_pendulum_continuous_fwddyn.log",
+      "sha": "785a92fd31a14428b607a5185decf6eaa42bb9f3",
+      "size": 15887,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/double_pendulum_continuous_invdyn.log",
+      "sha": "9cdb39042f0589d9df89207488fd40a220b58e62",
+      "size": 12926,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/double_pendulum_fwddyn.log",
+      "sha": "fc643cdcc5d5122072bfad7a9a97e0bd2c9257d2",
+      "size": 10911,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/double_pendulum_invdyn.log",
+      "sha": "02b97b3cf7cb164ca3c4f07be5bfa11499af0ce9",
+      "size": 12159,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/humanoid_backflip_fwddyn.log",
+      "sha": "d28e3a9ae2a2ee0cdc093b1a7bd63230bd09c0c7",
+      "size": 26499,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/humanoid_backflip_invdyn.log",
+      "sha": "9ec2badfb23bd59cec9a5d6df3e957a652b2b3a8",
+      "size": 38178,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/humanoid_bar_fwddyn.log",
+      "sha": "3ea5f0c89ac8f2510156fead764bd1ba40017987",
+      "size": 8056,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/humanoid_bar_invdyn.log",
+      "sha": "12b3ce1a25bea9b1c7e4e4fe57370b30a83330b2",
+      "size": 9457,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/humanoid_frontflip_fwddyn.log",
+      "sha": "93ca8ab4fe59b1bb2eab1827e1cb405ae00ae526",
+      "size": 22761,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/humanoid_frontflip_invdyn.log",
+      "sha": "0e243ec7762f5d7de149cf05dc475ee453774da1",
+      "size": 17622,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/humanoid_handstanding_fwddyn.log",
+      "sha": "537cd4699db66c6853929f6fa36a2814d0f95459",
+      "size": 16081,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/humanoid_handstanding_invdyn.log",
+      "sha": "0282763f6e77ef6e239a50c58b22a623973c3992",
+      "size": 13279,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/humanoid_manipulation.log",
+      "sha": "3b65fb8f99894c5faf313dbb5a83ea808a533194",
+      "size": 4836,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/humanoid_manipulation_ubound.log",
+      "sha": "4990a43525f81ee5c6eada66b49194b046557e59",
+      "size": 6860,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/humanoid_taichi.log",
+      "sha": "2104162eaa5b5bb518fc3d7551fe6db22c6e2033",
+      "size": 5147,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/humanoid_walking_on_hands_fwddyn.log",
+      "sha": "3ea475edd78fc8e3a96b57610afd1c650582856f",
+      "size": 34287,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/humanoid_walking_on_hands_invdyn.log",
+      "sha": "3f60944f3e0e39d9c2290ce05c174639c475fd6d",
+      "size": 11862,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/lqr_fwddyn.log",
+      "sha": "bfc83ec4202cba9876750a18b600b08c4d7326dd",
+      "size": 1048,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/lqr_invdyn.log",
+      "sha": "54c6e6beb4795e2575f56d06fb4911b38176996e",
+      "size": 1200,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/manipulator_fwddyn.log",
+      "sha": "364ec0122bb453e50f56ac9acfba8a6101610a38",
+      "size": 11691,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/manipulator_invdyn.log",
+      "sha": "e615966dc8a865266aca1b8aacab0d6ede0101c4",
+      "size": 5307,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/marine_manipulator_fwddyn.log",
+      "sha": "e1734af1cc961f5264d0bb1280841c57db1eda6b",
+      "size": 53545,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/marine_manipulator_invdyn.log",
+      "sha": "ff0afd0a31ac5f2c432f50aeaff3487a278a4474",
+      "size": 18814,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/quadrotor_fwddyn.log",
+      "sha": "34756f28e79e3d0a4532398589c481fa705ec126",
+      "size": 5695,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/quadrotor_invdyn.log",
+      "sha": "1ff0d1374bb479ff1f0e81d2ba75212849386525",
+      "size": 6162,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/quadrotor_ubound.log",
+      "sha": "6528ac38172a0849123b25456a8d6e876368244a",
+      "size": 933,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/quadruped_gaits_fwddyn.log",
+      "sha": "bbccc482612396d4c87df3b6886006292b7d86d6",
+      "size": 43199,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/quadruped_gaits_invdyn.log",
+      "sha": "cdead1eca5bd1fab22c2e67f3a4f2c863075af86",
+      "size": 33092,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/quadruped_pose_fwddyn.log",
+      "sha": "3a506cc8da6155302cc5276426090560486bcf21",
+      "size": 10948,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/quadruped_pose_invdyn.log",
+      "sha": "e16a9a23e6dab3e25f870c18ca85f2cf70f4f85d",
+      "size": 11416,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/quadruped_walk_ubound.log",
+      "sha": "72f2bc716df8f2c4b2621ab9ac769dc971acba56",
+      "size": 2036,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/log/update_logfiles.sh",
+      "sha": "2a3356f453a442a3fc812d458b51a05a07a615dc",
+      "size": 2700,
+      "mode": "100755"
+    },
+    {
+      "path": "examples/lqr_fwddyn.py",
+      "sha": "77148f5f6f4bc1291f89166d942d4ea7a22bc7c6",
+      "size": 3041,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/lqr_invdyn.py",
+      "sha": "f0958a4c500ce65e7236134a0309b6fd90bb4790",
+      "size": 3249,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/manipulator_fwddyn.py",
+      "sha": "dc7171aaf47254035d8f15be56ec5208fcddf8d0",
+      "size": 5970,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/manipulator_invdyn.py",
+      "sha": "fd269e92d8ee55a04c0bbf88ba49c8a9562a8e62",
+      "size": 6174,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/marine_manipulator_fwddyn.py",
+      "sha": "1a6efc3f088e831763630636b677fcfbe477f456",
+      "size": 7725,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/marine_manipulator_invdyn.py",
+      "sha": "0f31244048b90c31a4c29e960fe3278fbbc7ad2d",
+      "size": 7853,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/quadrotor_fwddyn.py",
+      "sha": "4b165cd8346868cf35b75bcf0d71bdf3768fc408",
+      "size": 5688,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/quadrotor_invdyn.py",
+      "sha": "1dba971a9146cca022a92196cc46427624075c9f",
+      "size": 5986,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/quadrotor_ubound.py",
+      "sha": "b5d847c85117d704f756d0b4e66b4651bd2bd581",
+      "size": 4287,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/quadruped_gaits_fwddyn.py",
+      "sha": "ce603770aee0225b6a62d24666023dc0661439b1",
+      "size": 9930,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/quadruped_gaits_invdyn.py",
+      "sha": "e8d9768e1a5808a13eb6292aa3d05128026d2890",
+      "size": 9955,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/quadruped_pose_fwddyn.py",
+      "sha": "6f75dc36bd414de2377a4c0f1914dea35c63b885",
+      "size": 5283,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/quadruped_pose_invdyn.py",
+      "sha": "09ceabb4e9821581486f81bbc6b60103c1b2cb89",
+      "size": 5204,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/quadruped_walk_ubound.py",
+      "sha": "9827ecd35c3cdcfe6f7da0f5a6a4b28a395b0fd0",
+      "size": 2707,
+      "mode": "100644"
+    },
+    {
+      "path": "flake.lock",
+      "sha": "25601659da504536d56c3e17232c67b887671100",
+      "size": 13192,
+      "mode": "100644"
+    },
+    {
+      "path": "flake.nix",
+      "sha": "5da6471f5f6c764964dd6d00baccb8fe70eec7d6",
+      "size": 757,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/action-base.hpp",
+      "sha": "d72f2dd2847d925ac7400065315f3b859bf3e323",
+      "size": 16852,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/action-base.hxx",
+      "sha": "71e399755562b9ffe19a3fa3c111d5f8750b84a3",
+      "size": 8174,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/actions/diff-lqr.hpp",
+      "sha": "ddab40862bc329f2487a01bcbbbbb50801eccdc2",
+      "size": 13730,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/actions/diff-lqr.hxx",
+      "sha": "daa1f4191692f2f8038ce9ece16b433c25a0be45",
+      "size": 18128,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/actions/lqr.hpp",
+      "sha": "116a3c345147cf4de5e3720271d2f898bcfa1907",
+      "size": 12556,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/actions/lqr.hxx",
+      "sha": "7aa555e55137ea0508bca59fe700f85319ee5378",
+      "size": 16395,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/actions/unicycle.hpp",
+      "sha": "7b44814c773a2924d4d178b7d686915d4057b8e3",
+      "size": 4137,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/actions/unicycle.hxx",
+      "sha": "afa0add36649593e2952f11c6c28ea71cb14004f",
+      "size": 5559,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/activation-base.hpp",
+      "sha": "946516da3b950bf1bc47edc34e4ef22a45aacebf",
+      "size": 3509,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/activations/2norm-barrier.hpp",
+      "sha": "b93f5d1cf5d5389b6d9ab2eaaf4013b80be66c4d",
+      "size": 6831,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/activations/quadratic-barrier.hpp",
+      "sha": "e351a686a529e3b4e060926ad1ba8ec824400c5f",
+      "size": 8438,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/activations/quadratic-flat-exp.hpp",
+      "sha": "b11b5e57676b9f1e99d5a0220ee664190e87501b",
+      "size": 6165,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/activations/quadratic-flat-log.hpp",
+      "sha": "dd02ff6668d6b29ad57da71609860aac609d6112",
+      "size": 6095,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/activations/quadratic.hpp",
+      "sha": "cc0ef721cbc6ad1afa00c974665e4297d3784a3b",
+      "size": 3135,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/activations/smooth-1norm.hpp",
+      "sha": "8a9be6417368f2ee63e33e0c2bb4692b1c7960d4",
+      "size": 6217,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/activations/smooth-2norm.hpp",
+      "sha": "5b48a980d9cd1e049bc8a93e9a1342e05e96ec46",
+      "size": 4651,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/activations/smooth-abs.hpp",
+      "sha": "dd21ff3f88652246c0fbe77293155d42b86c68b1",
+      "size": 1671,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/activations/weighted-quadratic-barrier.hpp",
+      "sha": "0c5ad6b4e62d894edd546a53e8f4e7f9d45886a1",
+      "size": 4831,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/activations/weighted-quadratic.hpp",
+      "sha": "81c2654e1fdb162d85653fed06f7b1ddc5c033f6",
+      "size": 4833,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/activations/weighted-smooth-1norm.hpp",
+      "sha": "95748c344af8f33c92b1bfcbaa85cc228341c943",
+      "size": 7081,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/actuation-base.hpp",
+      "sha": "da00f423fb12ef23badef6c4567e2d33d8a001c8",
+      "size": 8800,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/actuation-base.hxx",
+      "sha": "3d0379170ce1ebacb09232250837d3649773e35d",
+      "size": 4098,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/actuation/actuation-squashing.hpp",
+      "sha": "d8ce15e2ab4639d547edb257245da65ec737644d",
+      "size": 5004,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/actuation/squashing-base.hpp",
+      "sha": "cfdecce8775fbe0da80eb631e30b8c7569666fda",
+      "size": 3768,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/actuation/squashing/smooth-sat.hpp",
+      "sha": "db7dcd5c3b41194ccca9f2e235069935d8db342c",
+      "size": 3474,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/codegen/action-base.hpp",
+      "sha": "2a02a6eb7b411e889375e32aefcaf4c4a5659e8e",
+      "size": 793,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/codegen/action.hpp",
+      "sha": "26d00379ea7512245034854da493338e8919d107",
+      "size": 26992,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/codegen/action.hxx",
+      "sha": "66199f306eff374eb85196b1b9e34cb8182f03d4",
+      "size": 29578,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/constraint-base.hpp",
+      "sha": "d8ff238628b5f3c4271c9623968baaeca6c600ac",
+      "size": 11965,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/constraint-base.hxx",
+      "sha": "5e39a77d47290dc39cbb5f6cd1e39ad54f97b169",
+      "size": 7388,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/constraints/constraint-manager.hpp",
+      "sha": "1c6d112379aff28c7e03f0fc68a47cd56eca640f",
+      "size": 17665,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/constraints/constraint-manager.hxx",
+      "sha": "fde425599cbdb06c64bd4c72eb0859db0e9e3f71",
+      "size": 17216,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/constraints/residual.hpp",
+      "sha": "c5ac5246348fa70451cd447d9c97bf5557ebcc1e",
+      "size": 8300,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/constraints/residual.hxx",
+      "sha": "a5574c4a5750eadbb91a403eb332f99dde037d3d",
+      "size": 6555,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/control-base.hpp",
+      "sha": "c93d7417f6dcb9f485367650417c481598622416",
+      "size": 9148,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/control-base.hxx",
+      "sha": "14b1a46125b3f05f5925bd5ef848195f6e25ba45",
+      "size": 2523,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/controls/poly-one.hpp",
+      "sha": "2cdebb9e0997949532442d44575de632d2f862e0",
+      "size": 7871,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/controls/poly-one.hxx",
+      "sha": "941d61d9329833cdf70f73b8539501bf9596b8dd",
+      "size": 6948,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/controls/poly-two-rk.hpp",
+      "sha": "ee48b35bdd21f4fd42d1b9610e316c9cb7315782",
+      "size": 8714,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/controls/poly-two-rk.hxx",
+      "sha": "033d90e4ae82a96cb8e62acbeebc1a3ec9c45238",
+      "size": 8615,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/controls/poly-zero.hpp",
+      "sha": "97fa3020af6fa538509807b25f30ad0dda60a74d",
+      "size": 6789,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/controls/poly-zero.hxx",
+      "sha": "5b4493d3c0c3b8887dd8063b4ae09d897e4d81d6",
+      "size": 6544,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/cost-base.hpp",
+      "sha": "47f00853a89d3ebb4c2de7be5ad0c7592cc9d18d",
+      "size": 12918,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/cost-base.hxx",
+      "sha": "4f67ea9706232c637282c76d567f1ac8d9bf88ce",
+      "size": 5619,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/costs/cost-sum.hpp",
+      "sha": "8fbe5d76fb9be3e0b18030c46ab72eacf8d97228",
+      "size": 15540,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/costs/cost-sum.hxx",
+      "sha": "e05dc1c013eb537e3438641d4de4dc5669ff4e73",
+      "size": 13495,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/costs/residual.hpp",
+      "sha": "7d042ce8ca0e93311f676fe8616dec681f663cab",
+      "size": 7135,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/costs/residual.hxx",
+      "sha": "2bb3fcde2f6e80f5dbcae886aec67dcdc5f2747d",
+      "size": 4222,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/data-collector-base.hpp",
+      "sha": "620c5353c0cf8abfcf6961de0601ede11835b86c",
+      "size": 842,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/data/actuation.hpp",
+      "sha": "c585ba0b09ee41a866150b27a145377c30956b2a",
+      "size": 1142,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/data/joint.hpp",
+      "sha": "db74ed5fba3b45decabb594b1cf5393f0719bea1",
+      "size": 3788,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/diff-action-base.hpp",
+      "sha": "71ffae7a93eab0c7c62aa4ac4f946b0af598a830",
+      "size": 19193,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/diff-action-base.hxx",
+      "sha": "8a4637541a501a45448adbe20289381c92b39104",
+      "size": 7943,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/fwd.hpp",
+      "sha": "2c236f416189d82419b85860c749750a99182f98",
+      "size": 17609,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/guidance-base.hpp",
+      "sha": "8050764e07a464c8935279ab0215ebce13e9d0b5",
+      "size": 4949,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/guidance-base.hxx",
+      "sha": "522497aebab38bf54703e65964aaf44109636c4d",
+      "size": 2430,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/guidance/componentwise-saturation.hpp",
+      "sha": "9008fca9bc6ff30c2f71d8f07b0ac96cda7cd3a5",
+      "size": 5683,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/guidance/componentwise-saturation.hxx",
+      "sha": "ae750d935c280d63e77bca51274691341ec89f25",
+      "size": 4333,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/guidance/linear.hpp",
+      "sha": "e35e60e1b394a2ebbd04d3ab4901268317aa10d7",
+      "size": 3502,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/guidance/linear.hxx",
+      "sha": "5f9e0ab6db3e9fce6882fbebdca84e1924c042bd",
+      "size": 2709,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/guidance/smooth-saturation.hpp",
+      "sha": "3a72f8512e9796666d99fd9401741eb05a8fce32",
+      "size": 6257,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/guidance/smooth-saturation.hxx",
+      "sha": "4c17c1ebc808dd3b8ac964bfeed434604f651fb1",
+      "size": 4250,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/integ-action-base.hpp",
+      "sha": "c7d3e67f4cda40938ab6a7863387da9aa6c9d952",
+      "size": 7656,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/integ-action-base.hxx",
+      "sha": "bd0f915a6657bf415b7e0a0afd7e3ff147f77fea",
+      "size": 5288,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/integrator/euler.hpp",
+      "sha": "bfe00d388140465473f736769361039778ceaeda",
+      "size": 10283,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/integrator/euler.hxx",
+      "sha": "9c65e4e37f397ead8b73703544f6885f67240bbb",
+      "size": 8664,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/integrator/rk.hpp",
+      "sha": "03f3bd04ff31c1ddef7648632f7f4822afd5baa8",
+      "size": 15827,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/integrator/rk.hxx",
+      "sha": "3145433fb2e2f961d4f2fdc411be9cd7ddc82c48",
+      "size": 17491,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/macros.hpp",
+      "sha": "784ea0d0cc1004d680233914cf098a323a52631c",
+      "size": 16746,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/mathbase.hpp",
+      "sha": "788a3bc37be887b15afb9c47ac121850b5612a6e",
+      "size": 1801,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/numdiff/action.hpp",
+      "sha": "43ab73d90d518f308c4f601c5b14e7fb6abf6de9",
+      "size": 10462,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/numdiff/action.hxx",
+      "sha": "4896a91dd26526222796437a7f825ce14addea4f",
+      "size": 13931,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/numdiff/activation.hpp",
+      "sha": "d536588b9416e31cd5cf84d7d1735355cb731b44",
+      "size": 5218,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/numdiff/activation.hxx",
+      "sha": "a4cfa105159d1cdfa2b225d1436154533cd43a3b",
+      "size": 4198,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/numdiff/actuation.hpp",
+      "sha": "08a4ab54eb69fe5176f65dfba0be9dc4bfc67114",
+      "size": 6862,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/numdiff/actuation.hxx",
+      "sha": "5fe231cd90e9ef02bb33081654c8113d3bb185e5",
+      "size": 7420,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/numdiff/constraint.hpp",
+      "sha": "eccd5d9ce381585af1286676f86d190fb387df44",
+      "size": 7977,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/numdiff/constraint.hxx",
+      "sha": "41ca28cf91a36cd0d69a8cb388a0f69e8859ec26",
+      "size": 7272,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/numdiff/control.hpp",
+      "sha": "b1326584c6572580e4914cfc03077ba800b81d60",
+      "size": 7277,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/numdiff/control.hxx",
+      "sha": "bf3d9fd775895a5d7ca91b1b87fe1005acee92d0",
+      "size": 5086,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/numdiff/cost.hpp",
+      "sha": "842d0d837893d10c7b2f83b19afb52f11c9c903b",
+      "size": 8719,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/numdiff/cost.hxx",
+      "sha": "c25dce5778880e0fa2dea6af3732dbb8520a8d7c",
+      "size": 6539,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/numdiff/diff-action.hpp",
+      "sha": "d65ef6a6fa82f88f8fcc919fb1178566c8c7d6e1",
+      "size": 9672,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/numdiff/diff-action.hxx",
+      "sha": "9a8f3ce67464f09d8b935359fc5b83c5eb179a24",
+      "size": 14152,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/numdiff/residual.hpp",
+      "sha": "4ce11705b77f43b7305b94fa2b8be4ab7fc27a1b",
+      "size": 7939,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/numdiff/residual.hxx",
+      "sha": "84af12130ae0a44e11659660cedb59fd4f39f2b2",
+      "size": 4877,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/numdiff/state.hpp",
+      "sha": "560be4637c01f9ead003d4d744c2cfcacfadbc21",
+      "size": 4601,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/numdiff/state.hxx",
+      "sha": "b72e78585b6c7ebcff79a73544e3744ea8f69856",
+      "size": 9113,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/optctrl/shooting.hpp",
+      "sha": "becc19a492ec3c6d347a5540439650c2b8d467fb",
+      "size": 10839,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/optctrl/shooting.hxx",
+      "sha": "5bb38bae922ec7690bebed541815ec32f73a1af6",
+      "size": 19320,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/pch.hpp",
+      "sha": "3245ababa95b245eea20611e6cf5429e63958393",
+      "size": 1053,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/residual-base.hpp",
+      "sha": "aa9275a65c09e985ccb5b4e33a30ee56eb014dac",
+      "size": 10906,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/residual-base.hxx",
+      "sha": "1efc07c557b7f3d785c3c143e3c9453953de52d1",
+      "size": 5457,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/residuals/control.hpp",
+      "sha": "1b724cd7aecc8d33028d5d62f43ca51115a7f2e4",
+      "size": 6389,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/residuals/control.hxx",
+      "sha": "8375f42df7697375d5de2e3b717464b01b30d21c",
+      "size": 4626,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/residuals/joint-acceleration.hpp",
+      "sha": "055a3e2dabacc1a514575ce69809715f97c91141",
+      "size": 7864,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/residuals/joint-acceleration.hxx",
+      "sha": "5d81e04ce54efadc5bd72c574208ce655f099c5b",
+      "size": 4219,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/residuals/joint-effort.hpp",
+      "sha": "f546858b1cc4becf139ea3f2bd8a2a4aaa3a9973",
+      "size": 8746,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/residuals/joint-effort.hxx",
+      "sha": "2cbd71cbca9030addbeb0b33fe2fc5965bbd911d",
+      "size": 5094,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/residuals/task-first-order.hpp",
+      "sha": "7bdcedbba07f0478ab7b0fa7fdf2567657ae5dd5",
+      "size": 5986,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/residuals/task-first-order.hxx",
+      "sha": "c0fb153a455b48c49b862672e4458554171df6c6",
+      "size": 4030,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/residuals/task-second-order.hpp",
+      "sha": "3f039a5d3c1a94887b9ca7e010ace7980844c132",
+      "size": 7568,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/residuals/task-second-order.hxx",
+      "sha": "d9e12478bb8ac32f406869c0ad74f5f12dab450b",
+      "size": 6135,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/solver-base.hpp",
+      "sha": "5a42e1d8574b9e6b8f6955d5a5f8fb037207e7af",
+      "size": 29243,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/solver-base.hxx",
+      "sha": "989fe5a71ee4a385803b6c20d4e369cfd52dc8c0",
+      "size": 33906,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/solvers/box-ddp-deprecated.hpp",
+      "sha": "97f2ffef4a365d330edcf4faecb282ffa50c73e0",
+      "size": 1091,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/solvers/box-ddp.hpp",
+      "sha": "d22c630e593f2cae7183131ad7e7913c57bedcee",
+      "size": 714,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/solvers/box-fddp.hpp",
+      "sha": "d1b710216377d0979dc27145e29804b506a861a6",
+      "size": 3904,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/solvers/box-fddp.hxx",
+      "sha": "2876f0b74943954488f3261b9e7c27cee1331041",
+      "size": 9439,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/solvers/box-kkt.hpp",
+      "sha": "9475aefd557e559c5484ce610b377524b9059b45",
+      "size": 473,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/solvers/box-qp.hpp",
+      "sha": "1d87b88caf3f97434262804df61130638d6a8435",
+      "size": 8765,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/solvers/box-qp.hxx",
+      "sha": "a09755587fdf930ff609fdc46dc3fbbf87c21ef2",
+      "size": 9592,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/solvers/ddp-deprecated.hpp",
+      "sha": "9f4c159bc2ae997fc38acb38f0898dd759831510",
+      "size": 2988,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/solvers/ddp.hpp",
+      "sha": "31891af9c40a846ede6e4b21e0d44b4270b13b97",
+      "size": 716,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/solvers/fddp.hpp",
+      "sha": "d63e12862de09dbd394928afab1e5e83cf9c9c60",
+      "size": 30677,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/solvers/fddp.hxx",
+      "sha": "8952f78878e1c5a62b7cf4d9334445a524aac761",
+      "size": 45723,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/solvers/intro.hpp",
+      "sha": "7e3afc6564de2e95683ebef7e83e62f29cddb799",
+      "size": 9973,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/solvers/intro.hxx",
+      "sha": "fb7c7e3eddd381c6d95fa0f20ef006a051fe9236",
+      "size": 19557,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/solvers/ipopt.hpp",
+      "sha": "f4541fbb9bf8a8c6c51c14b246a7a93a1d7693d4",
+      "size": 3359,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/solvers/ipopt.hxx",
+      "sha": "373b9c11493f7fa839d8d6ca0a8603c58f0b49e4",
+      "size": 2998,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/solvers/ipopt/ipopt-iface.hpp",
+      "sha": "01139d509f7e9ce17e4cfd7855c1b637c1826d2c",
+      "size": 26584,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/solvers/ipopt/ipopt-iface.hxx",
+      "sha": "71d97cd3b1e318960a1976b3d87000c9fc3f7700",
+      "size": 32465,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/solvers/kkt.hpp",
+      "sha": "9157ff0b797f870b6e72fbc423edfdfa5a2432dd",
+      "size": 5065,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/solvers/kkt.hxx",
+      "sha": "ff989fc477cae67de9cdb2cd9341833021a5f985",
+      "size": 13537,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/solvers/odyn-sqp.hpp",
+      "sha": "54f167ebf6ea3742ef117e78b72463f5979467ae",
+      "size": 15675,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/solvers/odyn-sqp.hxx",
+      "sha": "83d837e37286b9f34730a574e4ee193a50f07495",
+      "size": 28257,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/state-base.hpp",
+      "sha": "6dcdb71dcd0372b98064c71ebaf617d8a314710b",
+      "size": 14388,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/state-base.hxx",
+      "sha": "a599c243d6e1ddf868cee79ccc42f59a41e16309",
+      "size": 6956,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/states/euclidean.hpp",
+      "sha": "96e3b230a76a14de9aeee4bd99f6ae15b05a0c4d",
+      "size": 3320,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/states/euclidean.hxx",
+      "sha": "e3ab72430e128d6a159a5621469f705f5ba2fbf5",
+      "size": 7472,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/task-base.hpp",
+      "sha": "34e3a98f3591811c626258609bf209b6d268fb0e",
+      "size": 7053,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/task-base.hxx",
+      "sha": "a0d744e98c5c6355f4c6037d1031cba478d9ea91",
+      "size": 2391,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/utils/callbacks.hpp",
+      "sha": "024c768c6f94ef4aee1745522e991a7dcb8b986f",
+      "size": 2677,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/utils/callbacks.hxx",
+      "sha": "419403ba8d0260dc5f5dae0ff1ceb36c922bbe79",
+      "size": 11738,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/utils/conversions.hpp",
+      "sha": "3eb7c33b653b5a51e670493709640999e4fda78d",
+      "size": 6849,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/utils/deprecate.hpp",
+      "sha": "7bd71cd6a900370503b119db5e4c5b0bbdff6626",
+      "size": 5099,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/utils/exception.hpp",
+      "sha": "98032745954f1b94e7033bda8d8fc5c9af44cb27",
+      "size": 2112,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/utils/file-io.hpp",
+      "sha": "c71cab207ace873a23ffb1954b194ad7240c724d",
+      "size": 2278,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/utils/math.hpp",
+      "sha": "bb19ebf2f122adcae3e6e7362d07e6dca490f7ea",
+      "size": 4710,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/utils/motion-display.hpp",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/utils/robot-loader.hpp",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/utils/scalar.hpp",
+      "sha": "8c25ba539d534cf8634747f4ffaac30382b07ce1",
+      "size": 1311,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/utils/solution-plot.hpp",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/utils/stop-watch.hpp",
+      "sha": "513e84c3d8208dcf4360958dfb5c418a28abcf01",
+      "size": 9527,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/utils/timer.hpp",
+      "sha": "f0b2c2b34be5879d4caa71bd719c3b8fec190d8f",
+      "size": 1302,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/core/utils/version.hpp",
+      "sha": "54f1bcb65e0c64bcde48bcfcf8e36d788840d80e",
+      "size": 1828,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/actions/contact-fwddyn.hpp",
+      "sha": "be820c9efb61117245634073c57277030edc2b69",
+      "size": 16704,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/actions/contact-fwddyn.hxx",
+      "sha": "acac8ee7000f1cef5c447b5513320cd0e0c957c7",
+      "size": 18102,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/actions/contact-invdyn.hpp",
+      "sha": "3dde6f27da6657f548a3919bdff067d8ee3dfd5b",
+      "size": 31273,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/actions/contact-invdyn.hxx",
+      "sha": "8f14c8f97f562a3407ceda622bf650f80e6a22f1",
+      "size": 19586,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/actions/free-fwddyn.hpp",
+      "sha": "f9a1fbb6d713b136cba5a93ff2b391017e46b017",
+      "size": 11106,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/actions/free-fwddyn.hxx",
+      "sha": "9f6b2587e48e2753bfa49edaaeab6bf4a0c9c390",
+      "size": 13089,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/actions/free-invdyn.hpp",
+      "sha": "05d18ab0907dfcec2f8ad7dec6cf1d3cc544b3df",
+      "size": 19884,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/actions/free-invdyn.hxx",
+      "sha": "755bc3c2b1a9f6754d62cdec1a7d8cb54dc7f9ce",
+      "size": 12192,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/actions/impulse-fwddyn.hpp",
+      "sha": "daceffd0db5708552d559d615f382d1aa8bc7f92",
+      "size": 15084,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/actions/impulse-fwddyn.hxx",
+      "sha": "8d3470cc2f09271620050a7e4f3405853e508eb2",
+      "size": 15498,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/actuations/floating-base-thrusters.hpp",
+      "sha": "34a7864baeb05005383921b4cf034f206f04d521",
+      "size": 15310,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/actuations/floating-base.hpp",
+      "sha": "8593446ce66e0b07a755ee26f9dc165734ed2e7b",
+      "size": 7338,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/actuations/full.hpp",
+      "sha": "0e2b86ecf3bef08cb2c4dc307f39bb50a59e1cb1",
+      "size": 5945,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/codegen/pinocchio_cast.hpp",
+      "sha": "7998ae2235d5146a2e0013edfe6e4c38865e5f0e",
+      "size": 955,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/contact-base.hpp",
+      "sha": "5a119981dcab863dcfbaaaf8195929d79b243ce0",
+      "size": 7423,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/contact-base.hxx",
+      "sha": "68debf893c705bc630f78270a67d857f5792ef23",
+      "size": 4309,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/contacts/contact-1d.hpp",
+      "sha": "7db1ad32aa75367367dc433c2a0915a990980e00",
+      "size": 9957,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/contacts/contact-1d.hxx",
+      "sha": "6fb491bec4eaf035f6c985ac43cd2badd88345db",
+      "size": 10191,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/contacts/contact-2d.hpp",
+      "sha": "bc08aa9f484fde5cb58e3862df200dcb4e98e02c",
+      "size": 7467,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/contacts/contact-2d.hxx",
+      "sha": "d4e1d8ee85605913dc8a35f0750bdfa77092df58",
+      "size": 6892,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/contacts/contact-3d.hpp",
+      "sha": "73b7d39eb15b696dd4bb4d2835eedcecc9b30d16",
+      "size": 9444,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/contacts/contact-3d.hxx",
+      "sha": "1be2510867fcf4c4ed6831b85aac38e8c98813f7",
+      "size": 9090,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/contacts/contact-6d.hpp",
+      "sha": "0752b522673ea3d5aedbcd7d13173fe7cfebaca0",
+      "size": 9280,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/contacts/contact-6d.hxx",
+      "sha": "c1636cc8373ee6624f7ccbf1397b2946f9b170c5",
+      "size": 8440,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/contacts/multiple-contacts.hpp",
+      "sha": "ac1194e4afe1b72db4f53c35071294cced2fc014",
+      "size": 13165,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/contacts/multiple-contacts.hxx",
+      "sha": "3534be4b6f5a9a9cd2b523741b56a16c6b48023d",
+      "size": 19900,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/cop-support.hpp",
+      "sha": "6418a2df01214469d451ff12217c17023ce4f884",
+      "size": 4763,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/cop-support.hxx",
+      "sha": "e3fbb1d891852129180980aaa2d4f793806d07c0",
+      "size": 4621,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/cost-base.hpp",
+      "sha": "396c2794ae857cb36d8dea5b14f20103b58615d7",
+      "size": 664,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/data/contacts.hpp",
+      "sha": "89b96079cdb44625ad208c6a8f6619957dfa3b58",
+      "size": 3338,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/data/impulses.hpp",
+      "sha": "7f4efe4b628871c0c904ec2f5e5009f733e6d2ce",
+      "size": 1785,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/data/multibody.hpp",
+      "sha": "bc28baeaca8cc46c95d1f3b237a6fba4a66179a6",
+      "size": 2397,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/force-base.hpp",
+      "sha": "fe1d81a89107da01c7123182a8ed220e1e9e3c95",
+      "size": 2337,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/friction-cone.hpp",
+      "sha": "2136fe031f6caf3652c3cf8da83dfb6dbafc2813",
+      "size": 6892,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/friction-cone.hxx",
+      "sha": "684266dab12515af4750f1e17129a1685975b75c",
+      "size": 9088,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/fwd.hpp",
+      "sha": "833edc6c6a9abf148a4355391755f7df45caaddc",
+      "size": 13799,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/impulse-base.hpp",
+      "sha": "84cc6bbe7e4c3a523b1746c407f67b9a6376dfb6",
+      "size": 5312,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/impulse-base.hxx",
+      "sha": "bce10064178f15557dd491f451cff3bbb461766c",
+      "size": 3442,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/impulses/impulse-3d.hpp",
+      "sha": "d328ef7da5f30d3a2955d312ec265e3608f0924b",
+      "size": 5827,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/impulses/impulse-3d.hxx",
+      "sha": "d83889405b7f2728f2410fdba64659a2b3c063dc",
+      "size": 4901,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/impulses/impulse-6d.hpp",
+      "sha": "0d196383de34f23fccea88a1e0e6f0b1143d79dd",
+      "size": 6049,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/impulses/impulse-6d.hxx",
+      "sha": "c617b8b4618f235ffc6d4fd98b9f292fc9405b7b",
+      "size": 5173,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/impulses/multiple-impulses.hpp",
+      "sha": "7a6c20871e91cd6e0b5000465213bd0b67657f82",
+      "size": 11848,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/impulses/multiple-impulses.hxx",
+      "sha": "a4efe874519aa9432cbe2498b197376bb6fed061",
+      "size": 14374,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/numdiff/contact.hpp",
+      "sha": "406a5bb67dde5064c6ddf9d3d8c83eccddb17794",
+      "size": 5952,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/numdiff/contact.hxx",
+      "sha": "fa472b5c1c3bbb387420adb829fd503229a89a2f",
+      "size": 3953,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/numdiff/cost.hpp",
+      "sha": "6912f74b9ca9d8e07b9d53547fedc9e235bd62b5",
+      "size": 729,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/pch.hpp",
+      "sha": "ff36d8ee24d3aec01d92a670ef1d59ed8eec4f02",
+      "size": 1842,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/residuals/centroidal-momentum.hpp",
+      "sha": "60072588e4eb1fdb1e23df87ab05f1059b30c81b",
+      "size": 7383,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/residuals/centroidal-momentum.hxx",
+      "sha": "46f89e854ba7c3ec7f1dabe768b0e0f740d8b234",
+      "size": 3431,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/residuals/com-position.hpp",
+      "sha": "c2bbfef0846e2373701de4f1c405161e61593019",
+      "size": 6589,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/residuals/com-position.hxx",
+      "sha": "71181e5779e39ba43c287c9cf7f1a431fc443fb2",
+      "size": 3066,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/residuals/contact-control-gravity.hpp",
+      "sha": "6309e1cd0d281553e1c8d93cf14bc13c745b6227",
+      "size": 8407,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/residuals/contact-control-gravity.hxx",
+      "sha": "1a2d0fb6b053da0050eefd1e916a51ed8283f4e8",
+      "size": 4255,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/residuals/contact-cop-position.hpp",
+      "sha": "45f508a268c707566366b8c11db5746afbe99f97",
+      "size": 15080,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/residuals/contact-cop-position.hxx",
+      "sha": "0367cd8b849325c939683ca9e8faa5153dcbe855",
+      "size": 4803,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/residuals/contact-force.hpp",
+      "sha": "de927788de04455bbccd779866de57e49e12457d",
+      "size": 14745,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/residuals/contact-force.hxx",
+      "sha": "131603379f51e09188e52e6d20c4761b5f4dd452",
+      "size": 6062,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/residuals/contact-friction-cone.hpp",
+      "sha": "a1814763b0d0196977bbc3f3a4ff5af8d0bdc5a2",
+      "size": 14174,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/residuals/contact-friction-cone.hxx",
+      "sha": "73fdcd7dbd38b0ff915b65337c548408c5551a25",
+      "size": 5848,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/residuals/contact-wrench-cone.hpp",
+      "sha": "6c217ef95c240160ac70b3353343e2fc4981cdcf",
+      "size": 14299,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/residuals/contact-wrench-cone.hxx",
+      "sha": "0151a134bf852002949c10265cb83ab959f29e99",
+      "size": 5363,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/residuals/control-gravity.hpp",
+      "sha": "65400250cdbdbbd2e7e1ac7bb6bf9cd30b80bf7f",
+      "size": 7133,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/residuals/control-gravity.hxx",
+      "sha": "44a1af29812e7b1010c9089343683abb7de2ec7d",
+      "size": 4176,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/residuals/frame-placement.hpp",
+      "sha": "fa286d04eb6678f4e948b462392472b2c9f1dd1c",
+      "size": 7827,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/residuals/frame-placement.hxx",
+      "sha": "d0c7fa76975722566860ef3b14b8cc68f85112eb",
+      "size": 4673,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/residuals/frame-rotation.hpp",
+      "sha": "e419fdffee557036a4058d83becb483009382c45",
+      "size": 7842,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/residuals/frame-rotation.hxx",
+      "sha": "6091e0b790511112332d70d504451a7e7ca39971",
+      "size": 4668,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/residuals/frame-translation.hpp",
+      "sha": "03c890e1459a85dfdaae7f4c192b3af5e1ba1372",
+      "size": 7577,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/residuals/frame-translation.hxx",
+      "sha": "ce078f58511bd12258bd2f78cee572fdbd1d0bcf",
+      "size": 4361,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/residuals/frame-velocity.hpp",
+      "sha": "693adb95f8b01da81ac9832ce4b9f0ee789cd5c9",
+      "size": 8022,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/residuals/frame-velocity.hxx",
+      "sha": "92c12baab79507da2b42cdd31eaeffa9c48fd965",
+      "size": 4754,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/residuals/impulse-com.hpp",
+      "sha": "a9373d315bbee43c4c1b9cd356bfdb4862439220",
+      "size": 6807,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/residuals/impulse-com.hxx",
+      "sha": "10040ddaee1656603bec114dd249712cce4052c0",
+      "size": 3202,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/residuals/pair-collision.hpp",
+      "sha": "467b7e28877ba95b573256feaaab8323d5801ae4",
+      "size": 7898,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/residuals/pair-collision.hxx",
+      "sha": "c888b1350a0a844cec077883d661b6cbf2234dc0",
+      "size": 4001,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/residuals/state.hpp",
+      "sha": "3013f38e350ecc56c976adc729ba1317ff3a5141",
+      "size": 6952,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/residuals/state.hxx",
+      "sha": "856ee7e2795e5cdb34d39593ff2ed592e8120f7e",
+      "size": 6241,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/states/multibody.hpp",
+      "sha": "5408676a881d9408fa97e10c8d271766edc6d929",
+      "size": 5891,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/states/multibody.hxx",
+      "sha": "74f89a44713485b9d934c2d6c40e969f3e9401c2",
+      "size": 23887,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/tasks/centroidal-momentum.hpp",
+      "sha": "3308ed6b1ce64eda8ee45da00d7945229c18db79",
+      "size": 7869,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/tasks/centroidal-momentum.hxx",
+      "sha": "0eba630abb35d124525a0d2f3c05fca3496fa369",
+      "size": 4929,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/tasks/com-position.hpp",
+      "sha": "940d65ecba60a39790f1d0f5f0681721a8285602",
+      "size": 6273,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/tasks/com-position.hxx",
+      "sha": "ad54b2830d13c74b612713243485cc416e222fd1",
+      "size": 3996,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/tasks/frame-placement.hpp",
+      "sha": "9b787dfb056f57862e3b0b3a235972775ce09886",
+      "size": 8798,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/tasks/frame-placement.hxx",
+      "sha": "b71c69100174dbe89c5110b38afa1f128287a336",
+      "size": 9918,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/tasks/frame-rotation.hpp",
+      "sha": "70ce48d5403114be89ebdb3b3ccdb23b96ba74de",
+      "size": 8417,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/tasks/frame-rotation.hxx",
+      "sha": "8b03d33c745497f1660d10394ec1aeca58587cd1",
+      "size": 9106,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/tasks/frame-translation.hpp",
+      "sha": "0f84607fefbd8bbf2f706af5ed42e64880525c3e",
+      "size": 8146,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/tasks/frame-translation.hxx",
+      "sha": "7847eb130340635bceb048ad4cf0ebaa8b11510c",
+      "size": 8522,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/tasks/joint-position.hpp",
+      "sha": "7d8e7b084d05c43e30a8c32fd5083beee6361565",
+      "size": 7023,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/tasks/joint-position.hxx",
+      "sha": "2fe2d11bb78a799895644cd9f78c8333f106acc7",
+      "size": 4549,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/utils/quadruped-gaits.hpp",
+      "sha": "a9f3c8ea0410d16df9fb1c7400b30bf9524af1d6",
+      "size": 4330,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/wrench-cone.hpp",
+      "sha": "08c96d279cbad5fb284637757f76f9a59c1a6934",
+      "size": 7948,
+      "mode": "100644"
+    },
+    {
+      "path": "include/crocoddyl/multibody/wrench-cone.hxx",
+      "sha": "07fa5dadc838d0feabef455f19873c103657820c",
+      "size": 13032,
+      "mode": "100644"
+    },
+    {
+      "path": "notebooks/01_introduction_to_crocoddyl.ipynb",
+      "sha": "7487fb0012df3aa13fee8a43cb15f894a38dbf77",
+      "size": 10986,
+      "mode": "100644"
+    },
+    {
+      "path": "notebooks/02_optimizing_a_cartpole_swingup.ipynb",
+      "sha": "a8497e61648ecbc8afa9d5764236d648813c4029",
+      "size": 26629,
+      "mode": "100644"
+    },
+    {
+      "path": "notebooks/03_optimizing_an_unicycle.ipynb",
+      "sha": "46455040b863b6d5fc241175ff23ae8788fd2529",
+      "size": 220,
+      "mode": "100644"
+    },
+    {
+      "path": "notebooks/04_actuating_an_acrobot.ipynb",
+      "sha": "380cc252b38ccd02a374f362142a41d5cbe14ec4",
+      "size": 10288,
+      "mode": "100644"
+    },
+    {
+      "path": "notebooks/05_codegenerating_a_cartpole.ipynb",
+      "sha": "924b5dedc9f9ba2ca66b037afe3d4223b89fb5de",
+      "size": 30579,
+      "mode": "100644"
+    },
+    {
+      "path": "notebooks/06_scaling_to_robotics.ipynb",
+      "sha": "9a0824a78427882163c723404bd4c3245cba1be0",
+      "size": 12149,
+      "mode": "100644"
+    },
+    {
+      "path": "notebooks/07_targetting_in_aerial_manipulation.ipynb",
+      "sha": "46455040b863b6d5fc241175ff23ae8788fd2529",
+      "size": 220,
+      "mode": "100644"
+    },
+    {
+      "path": "notebooks/08_backflips_in_humanoids.ipynb",
+      "sha": "46455040b863b6d5fc241175ff23ae8788fd2529",
+      "size": 220,
+      "mode": "100644"
+    },
+    {
+      "path": "notebooks/CMakeLists.txt",
+      "sha": "6b27af886c0d6f888d571ecfaf2403e0c7bdbc7a",
+      "size": 1384,
+      "mode": "100644"
+    },
+    {
+      "path": "notebooks/arm_manipulation.ipynb",
+      "sha": "1a0453bc004491849769686ba8b9abd058404c14",
+      "size": 13828,
+      "mode": "100644"
+    },
+    {
+      "path": "notebooks/bipedal_walking.ipynb",
+      "sha": "e43fe81e89517f53766dcf1f1c9708e08e2a4669",
+      "size": 7109,
+      "mode": "100644"
+    },
+    {
+      "path": "notebooks/cartpole_utils.py",
+      "sha": "203bbf5c2a0063da519bfe57db4dfe149f453616",
+      "size": 1295,
+      "mode": "100644"
+    },
+    {
+      "path": "notebooks/p2p.py",
+      "sha": "295629534935e8e298679dab36bcfee70032f9f1",
+      "size": 3478,
+      "mode": "100644"
+    },
+    {
+      "path": "notebooks/run_notebook.py",
+      "sha": "379dc91a7a6015f5cf899bdb21aa652152d756f9",
+      "size": 2064,
+      "mode": "100644"
+    },
+    {
+      "path": "notebooks/solutions/cartpole_analytical_derivatives.py",
+      "sha": "65a674961213ff354bf8bedc054104abb0c00968",
+      "size": 1948,
+      "mode": "100644"
+    },
+    {
+      "path": "notebooks/solutions/cartpole_ddp.py",
+      "sha": "49cdecbc59d93a0fb80bb81fc988134ec301d541",
+      "size": 415,
+      "mode": "100644"
+    },
+    {
+      "path": "notebooks/solutions/cartpole_dyn.py",
+      "sha": "5b089dafeba83a317235b81e07698aa4094c7202",
+      "size": 669,
+      "mode": "100644"
+    },
+    {
+      "path": "notebooks/solutions/cartpole_fxfu.py",
+      "sha": "402079af42e6ddff3db07946426fba5f4fc65777",
+      "size": 182,
+      "mode": "100644"
+    },
+    {
+      "path": "notebooks/solutions/cartpole_integration.py",
+      "sha": "34364b37faedd142071df5f0719f34ebde63fc61",
+      "size": 379,
+      "mode": "100644"
+    },
+    {
+      "path": "notebooks/solutions/cartpole_tuning.py",
+      "sha": "6caa79accbbd9c385eafcaf9a7f6ed9267bb3cbd",
+      "size": 785,
+      "mode": "100644"
+    },
+    {
+      "path": "notebooks/unicycle_towards_origin.ipynb",
+      "sha": "21216c615fb666946a42e8f552fb95d9e786f008",
+      "size": 17905,
+      "mode": "100644"
+    },
+    {
+      "path": "notebooks/unicycle_towards_origin.py",
+      "sha": "1830a776c21bf5582c2e53d92e3ec82b5d794cd8",
+      "size": 1030,
+      "mode": "100644"
+    },
+    {
+      "path": "notebooks/unicycle_utils.py",
+      "sha": "acd499f01bf8014328cb55285f328b9426874b11",
+      "size": 766,
+      "mode": "100644"
+    },
+    {
+      "path": "notebooks/whole_body_manipulation.ipynb",
+      "sha": "6059cec07218e2bf0d39806badb339761fed9324",
+      "size": 14548,
+      "mode": "100644"
+    },
+    {
+      "path": "package.xml",
+      "sha": "51ab340f070ac2440424a30f473a887bb7c6a98a",
+      "size": 1515,
+      "mode": "100644"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "3c4277dd942aa1fada396931acaa2a479c3f7be3",
+      "size": 237,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/action-base.cpp.in",
+      "sha": "a9513b70c65747a91fe52e56b56bee451f5c40f5",
+      "size": 684,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/actions/diff-lqr.cpp.in",
+      "sha": "2a429e41f22f9e1b2f1e2a4533bc7ff3af3fe1fa",
+      "size": 703,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/actions/lqr.cpp.in",
+      "sha": "bb84afb3505bd8f497f631b41c7aba4e532d9031",
+      "size": 674,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/actions/unicycle.cpp.in",
+      "sha": "99df40eb1e320fa468b5ac8465e99f25cbb58c42",
+      "size": 689,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/activation-base.cpp.in",
+      "sha": "e015941842cee6c11f988a72eca52cc0e199a94e",
+      "size": 696,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/activations/2norm-barrier.cpp.in",
+      "sha": "38b4c6946cb1e248e1448f3a20882850bd0a6cfd",
+      "size": 714,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/activations/quadratic-barrier.cpp.in",
+      "sha": "47bb22b961ea3f63594a1be1c57be09bb6818bb0",
+      "size": 833,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/activations/quadratic-flat-exp.cpp.in",
+      "sha": "9cb64c3337844f6060e235aa93abc18409186e17",
+      "size": 717,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/activations/quadratic-flat-log.cpp.in",
+      "sha": "0214c01d0afb54ee0f9d6ac73f7f4edc278fc59c",
+      "size": 717,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/activations/quadratic.cpp.in",
+      "sha": "86d60ceba4f76870248b1b71cf2528d40a04c042",
+      "size": 585,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/activations/smooth-1norm.cpp.in",
+      "sha": "e3e9b6e3bf3565c9c1752191d93511b620b4bf3e",
+      "size": 711,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/activations/smooth-2norm.cpp.in",
+      "sha": "fcefdad49d2c5ef140786c380469da61b9e63bd7",
+      "size": 595,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/activations/smooth-abs.cpp.in",
+      "sha": "567f8db73dd975b4e7ca3296e9808e4d950bd821",
+      "size": 705,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/activations/weighted-quadratic-barrier.cpp.in",
+      "sha": "fc0976cd3e6e732d5d7ae28059cc2609bb7ca7b1",
+      "size": 622,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/activations/weighted-quadratic.cpp.in",
+      "sha": "cb844cefbfbb4e7d4f31363b0dc55429bb367c08",
+      "size": 719,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/activations/weighted-smooth-1norm.cpp.in",
+      "sha": "aa22b6bffc0f4ad36a2a5cdb16b89d3d2d701445",
+      "size": 731,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/actuation-base.cpp.in",
+      "sha": "b42e2ac25b47fcd5fef34f9133a8781baf5e86e4",
+      "size": 693,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/actuation/actuation-squashing.cpp.in",
+      "sha": "5ecc401837a2150637c28ff49eeb10ddec99eca4",
+      "size": 710,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/actuation/squashing-base.cpp.in",
+      "sha": "34e88e065e97bf071b2171cb70b4f0a8c03c1459",
+      "size": 703,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/actuation/squashing/smooth-sat.cpp.in",
+      "sha": "efc3f9a40ca4ae75bf5b29a8df5bbaf308161e16",
+      "size": 598,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/codegen/action.cpp_fptype.in",
+      "sha": "045a44dd842a5caf2c8dcdb110a35286b4a3e220",
+      "size": 724,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/constraint-base.cpp.in",
+      "sha": "56201951da58c3fe76df83e845699b6979eb734d",
+      "size": 696,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/constraints/constraint-manager.cpp.in",
+      "sha": "521d683015aa093fe41f5da08e41ffe215a6b4ac",
+      "size": 814,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/constraints/residual.cpp.in",
+      "sha": "c39865a7a9790d6625b06a0bda1b928b2b445f2e",
+      "size": 701,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/control-base.cpp.in",
+      "sha": "733f8837a809e55a2416898c17e5582ec9350d04",
+      "size": 717,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/controls/poly-one.cpp.in",
+      "sha": "f8dd6cc43280b08fc401e6995c895b832391c27c",
+      "size": 720,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/controls/poly-two-rk.cpp.in",
+      "sha": "9fcbbd8817e2f30fa3c99896a39c80409861064f",
+      "size": 727,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/controls/poly-zero.cpp.in",
+      "sha": "7d673120ecde7c8141a50c8fb39ef35d4f696994",
+      "size": 598,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/cost-base.cpp.in",
+      "sha": "907ac433b7d16ee152a0447fcd873c4e87e957fe",
+      "size": 678,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/costs/cost-sum.cpp.in",
+      "sha": "1209a72a5f88e16705fe7297ba31539815e67ed5",
+      "size": 783,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/costs/residual.cpp.in",
+      "sha": "e686c5b10d001dd08d26f5fe7dd590d5e41d440d",
+      "size": 683,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/data-collector-base.cpp.in",
+      "sha": "824b233f120d9d7dddac0d505569e531935083c9",
+      "size": 586,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/data/actuation.cpp.in",
+      "sha": "09f0a516d8d5a8ef2fd133ff4f4d31f74c11c0dc",
+      "size": 582,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/data/joint.cpp.in",
+      "sha": "e997de4644d7b25718f07d11e9764dfdffe02370",
+      "size": 800,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/diff-action-base.cpp.in",
+      "sha": "30ea8e37da2ebda2872332cc97b178ef4d25c70c",
+      "size": 713,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/guidance-base.cpp.in",
+      "sha": "0bd8e4ad3810343486d295ebfd1d7fd8d28df5fa",
+      "size": 685,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/guidance/componentwise-saturation.cpp.in",
+      "sha": "9b192622c27833e567faad135fa379a844151969",
+      "size": 735,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/guidance/linear.cpp.in",
+      "sha": "d5e80b6ea5d49233083d4c865aae3dc3f461bfab",
+      "size": 574,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/guidance/smooth-saturation.cpp.in",
+      "sha": "376787afcc68d8201fd9e34466db81f98af225c8",
+      "size": 714,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/integ-action-base.cpp.in",
+      "sha": "d45856172bc77912e2e94209b0a89fb1e2978591",
+      "size": 710,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/integrator/euler.cpp.in",
+      "sha": "4fd27b682ab6920ae547e83870dff7292b75b034",
+      "size": 703,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/integrator/rk.cpp.in",
+      "sha": "181c4766bf763e402fcb7fdd788101f4ff5c3e17",
+      "size": 694,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/numdiff/action.cpp.in",
+      "sha": "d8add854343728b3d41a1c77e210b5897c7c6a4e",
+      "size": 685,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/numdiff/activation.cpp.in",
+      "sha": "a60158f89193b256919b444a9db83b78229ae2af",
+      "size": 697,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/numdiff/cost.cpp.in",
+      "sha": "ffab6d2f8c5116147e32ee7818ed32d64623ece7",
+      "size": 679,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/numdiff/diff-action.cpp.in",
+      "sha": "831212bc780642481bb745519d556b5289a83f94",
+      "size": 714,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/numdiff/state.cpp.in",
+      "sha": "558713a002e45774afbbb8b5c97dd586469c9d26",
+      "size": 570,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/optctrl/shooting.cpp_fptype.in",
+      "sha": "f9466258ba0cb395692cb56cee7e6613ce580cef",
+      "size": 576,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/residual-base.cpp.in",
+      "sha": "8f1e205b25fef441c02530e736fcd850cc9854e3",
+      "size": 690,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/residuals/control.cpp.in",
+      "sha": "6d7faaa6b81d851a713037958d1de40e4fe1f57f",
+      "size": 582,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/residuals/joint-acceleration.cpp.in",
+      "sha": "fa14030000775ca1001b60780561758e81c1349b",
+      "size": 723,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/residuals/joint-effort.cpp.in",
+      "sha": "c0bd570e9e91ddcb04e8c4f43ba0c278a4bed997",
+      "size": 705,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/solver-base.cpp_fptype.in",
+      "sha": "52aca9b0cf61c799d42ece753da3ab9415e1470a",
+      "size": 570,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/solvers/box-fddp.cpp_fptype.in",
+      "sha": "5acb04704f8d4000ab836dfd1bec661a925dafd8",
+      "size": 574,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/solvers/box-qp.cpp_fptype.in",
+      "sha": "b41043e44916c22639f2259c091d6f0153bc6302",
+      "size": 564,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/solvers/fddp.cpp_fptype.in",
+      "sha": "7ebf88f0314f22f528735c30fa296b1745745662",
+      "size": 567,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/solvers/intro.cpp_fptype.in",
+      "sha": "714d611ff0e2149c67777fd1bbf23db12c9e2bdc",
+      "size": 569,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/solvers/odyn-sqp.cpp_fptype.in",
+      "sha": "81718da14c5a241bdc862b7a59fb44ba3b526370",
+      "size": 634,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/state-base.cpp.in",
+      "sha": "fc00b524318a7512c4f29a9818e1f2728e70c585",
+      "size": 568,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/states/euclidean.cpp.in",
+      "sha": "f69c770245d294aa4fa5ff8e06d03530ce25f21a",
+      "size": 572,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/task-base.cpp.in",
+      "sha": "f83919c5d9f2be7bbc459978457b16a27edfea22",
+      "size": 673,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/utils/exception.cpp",
+      "sha": "58ae1d33b99ee59f98fc4e4636f8d0d7950d02b3",
+      "size": 993,
+      "mode": "100644"
+    },
+    {
+      "path": "src/core/utils/stop-watch.cpp",
+      "sha": "d4051c76822023e7fe537dba561911394b0430fd",
+      "size": 11117,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/actions/contact-fwddyn.cpp.in",
+      "sha": "d0ac69d8446bc2a3356142c01bcb69d9c327b6e6",
+      "size": 744,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/actions/contact-invdyn.cpp.in",
+      "sha": "e3350153c0fbce855e13c12b7c1c4c1505241073",
+      "size": 744,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/actions/free-fwddyn.cpp.in",
+      "sha": "c5b46400a4e74886e7185500fa633f386c54d3b9",
+      "size": 735,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/actions/free-invdyn.cpp.in",
+      "sha": "4b5e566e399a78d8437528fd056a4e49f5137473",
+      "size": 735,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/actions/impulse-fwddyn.cpp.in",
+      "sha": "fcca7aab78ae28f7cc23d6a800215a2f049dc049",
+      "size": 720,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/actuations/floating-base-thrusters.cpp.in",
+      "sha": "f670c2dd514fa7ff4cd31c1f8e7441025c8db554",
+      "size": 718,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/actuations/floating-base.cpp.in",
+      "sha": "1ac8fdf42f87671d31e72b64e9ea7fe913c896ed",
+      "size": 600,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/actuations/full.cpp.in",
+      "sha": "5430fa4b901382ef55c2d237a394db0e050de594",
+      "size": 583,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/contact-base.cpp.in",
+      "sha": "65b1f10e89936e6003b076ddb68f52c7c07a8cd8",
+      "size": 692,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/contacts/contact-1d.cpp.in",
+      "sha": "a541700738046450b22dbec9df9c293abfe5fb7e",
+      "size": 687,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/contacts/contact-2d.cpp.in",
+      "sha": "fffdd0ee762aedddf8e61f221f9078e2e37d26fb",
+      "size": 687,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/contacts/contact-3d.cpp.in",
+      "sha": "6f7dc345ba76d4ca5569443f3a8775bcaadfd832",
+      "size": 687,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/contacts/contact-6d.cpp.in",
+      "sha": "6038a976575b3fc2e8c6bd522782c7a747379ce5",
+      "size": 687,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/contacts/multiple-contacts.cpp.in",
+      "sha": "ec666fa177e47e3831bbf3c5943ecb4ef7a8c132",
+      "size": 808,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/cop-support.cpp.in",
+      "sha": "51a8d737e47ffa6cb394a24c0b31043b6cafafbd",
+      "size": 571,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/data/contacts.cpp.in",
+      "sha": "a62230d2e9a76a1ca0b561bcf03ed0a37eda5097",
+      "size": 961,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/data/impulses.cpp.in",
+      "sha": "405e2bf3045637e3d09995095daf0ac0ccc92b2c",
+      "size": 706,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/data/multibody.cpp.in",
+      "sha": "8a4d48a8a204b047ac787bd0bf78a96e4843b60f",
+      "size": 824,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/force-base.cpp.in",
+      "sha": "ff54ff032c4ca0756c3d7489688e39d5c6e6764c",
+      "size": 578,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/friction-cone.cpp.in",
+      "sha": "49a3b95da9c49dc0f588935e0dadfbbd2bf0eb0c",
+      "size": 575,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/impulse-base.cpp.in",
+      "sha": "f539015a16251ea338c6eee670ad90b389451394",
+      "size": 692,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/impulses/impulse-3d.cpp.in",
+      "sha": "4b89d0217c59fdd793d53e9baac0212d90183a16",
+      "size": 687,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/impulses/impulse-6d.cpp.in",
+      "sha": "0fc654d486175ea326c0dbf1f7ac4468ea1398af",
+      "size": 687,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/impulses/multiple-impulses.cpp.in",
+      "sha": "b6abf96d480e60a708b18dbc60022e9bdc0af233",
+      "size": 808,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/residuals/centroidal-momentum.cpp.in",
+      "sha": "10c30441c947a3112419ce639e6e17e4ac7a2ed5",
+      "size": 731,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/residuals/com-position.cpp.in",
+      "sha": "e5bf409dda71c5eb190a293ac771be0b09377a93",
+      "size": 710,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/residuals/contact-control-gravity.cpp.in",
+      "sha": "76a6426fbced2097434071265b5c9751b8295686",
+      "size": 735,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/residuals/contact-cop-position.cpp.in",
+      "sha": "a9b5285386500deac67a841f991e709e80bd8ba6",
+      "size": 732,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/residuals/contact-force.cpp.in",
+      "sha": "f71bc3635d0e15759cc82f462839449d4cdbf67b",
+      "size": 713,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/residuals/contact-friction-cone.cpp.in",
+      "sha": "603848d71c59694873ecd00b92ec1d7790eebd68",
+      "size": 735,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/residuals/contact-wrench-cone.cpp.in",
+      "sha": "9b5e225744481a269d428dca2e0b21b872bec8a3",
+      "size": 729,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/residuals/control-gravity.cpp.in",
+      "sha": "3fdea1255cdeae494a694ecc2077d13d12c2932a",
+      "size": 713,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/residuals/frame-placement.cpp.in",
+      "sha": "2f6a992b056c9963892f1b866b16bef44c4d41cf",
+      "size": 719,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/residuals/frame-rotation.cpp.in",
+      "sha": "b4a3da4b031b27410c74d69a2c6195d9fb4e4cd0",
+      "size": 716,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/residuals/frame-translation.cpp.in",
+      "sha": "ade358e5e8198436415e696727ecaf15fc35e20f",
+      "size": 725,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/residuals/frame-velocity.cpp.in",
+      "sha": "91e3d70679975a2424caacd866e1ac4b3cbe581a",
+      "size": 716,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/residuals/impulse-com.cpp.in",
+      "sha": "7599458fec73b4458b46026ed0cd28e1fb73a96e",
+      "size": 707,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/residuals/state.cpp.in",
+      "sha": "894fc2a6b389a890560d2b9e44a2198f7921f3c1",
+      "size": 583,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/states/multibody.cpp.in",
+      "sha": "9d460b78c16d8d5f00ed6a1f1057177c2323c8b6",
+      "size": 580,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/tasks/centroidal-momentum.cpp.in",
+      "sha": "5b5da9c561096557124a304a4bf0b755b831c36a",
+      "size": 714,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/tasks/com-position.cpp.in",
+      "sha": "609b96cc3bbbd9852beb422496bdae6888149a53",
+      "size": 583,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/tasks/frame-placement.cpp.in",
+      "sha": "be8718995b8a6bcb46da06f4aef22ed926a7b331",
+      "size": 592,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/tasks/frame-rotation.cpp.in",
+      "sha": "d141414674e3c0ddd88b99a2e20d0833af6ad36c",
+      "size": 699,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/tasks/frame-translation.cpp.in",
+      "sha": "45f8d9aa65191ecd7c8d40140e2c141a6ccb6909",
+      "size": 708,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/tasks/joint-position.cpp.in",
+      "sha": "f39cbf27329df4369528022e25f2add085b57d69",
+      "size": 699,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/utils/quadruped-gaits.cpp",
+      "sha": "6d12cb1187a8777f1289094984fee892f1b8c9a5",
+      "size": 20500,
+      "mode": "100644"
+    },
+    {
+      "path": "src/multibody/wrench-cone.cpp.in",
+      "sha": "cde56132881d1ca4ee3d022c8eae2f8c97c1d153",
+      "size": 571,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/CMakeLists.txt",
+      "sha": "ec31af22eeab9eb74a67cd044c749c92978c5423",
+      "size": 4107,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/bindings/CMakeLists.txt",
+      "sha": "84de9983c7f9d8ceeb99b18f264fbf8ad1462e12",
+      "size": 657,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/bindings/factory.py",
+      "sha": "0622c4aa372c2c6fffef05b75b1b48c21632812d",
+      "size": 95001,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/bindings/test_actions.py",
+      "sha": "7894d970fead136e3b1e5fa1b6b6fa3bef25c850",
+      "size": 15516,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/bindings/test_actuations.py",
+      "sha": "17c6f98cad8b1a50797eb453d7034fafb0422413",
+      "size": 2762,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/bindings/test_contacts.py",
+      "sha": "e8fea55086aa531df7cd365e13ae749995d4a4e2",
+      "size": 13515,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/bindings/test_copy.py",
+      "sha": "15528216cdf3bf4c30795c39107d1fae792cfdc5",
+      "size": 15462,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/bindings/test_costs.py",
+      "sha": "de24b978c3f595ffc3f8755480867b2c7397aa94",
+      "size": 15302,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/bindings/test_impulses.py",
+      "sha": "030d7bce1bab08019a5ed920c633013744028593",
+      "size": 9763,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/bindings/test_shooting.py",
+      "sha": "95446157c136619bd0be1e5bfb6004bce27cc1d6",
+      "size": 4841,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/bindings/test_solvers.py",
+      "sha": "d4d191dbf28761a7d66b77010137628530592a8d",
+      "size": 11049,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/bindings/test_squashing.py",
+      "sha": "8d511a1156f4652f69a87cc7c388a0963eac9d60",
+      "size": 1913,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/bindings/test_states.py",
+      "sha": "35c5c88eba87408301503ff435de51b0f1f5cf91",
+      "size": 5796,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/bindings/test_utils.py",
+      "sha": "5119cc00847681f7188e158f7caefa4dcb795867",
+      "size": 632,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/action.cpp",
+      "sha": "e7c5a900c3dad5cd873aa1970972cc15c10b79e7",
+      "size": 13397,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/action.hpp",
+      "sha": "19f386d2a7870d7a0a666f4f79bde6bf528f4e4f",
+      "size": 2084,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/activation.cpp",
+      "sha": "2c1b136519726c0c0cf46b4af385d64ac0207d54",
+      "size": 5453,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/activation.hpp",
+      "sha": "be69ff490ae36ecda5121d90028ec2edfbe9356e",
+      "size": 1699,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/actuation.cpp",
+      "sha": "5647586090da747213e6bd6d6babed62b722f1e5",
+      "size": 4755,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/actuation.hpp",
+      "sha": "56db065832301999b28b2f3682e204fd19730729",
+      "size": 2422,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/actuation.hxx",
+      "sha": "19175b2273bb8e7ebcaaa9e2d1435087a21e5e42",
+      "size": 872,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/constraint.cpp",
+      "sha": "3ee0435ea6fd812696bdb45e6b478b462f7e3ef8",
+      "size": 10346,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/constraint.hpp",
+      "sha": "01eb4d555f23a061fdff61ee94372a901b88c3ec",
+      "size": 2382,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/contact.cpp",
+      "sha": "91d48da24a08048d9c308a46fa71911a3a1c8094",
+      "size": 7052,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/contact.hpp",
+      "sha": "76b7715b17d3e9e9094af8b5840a0459501f05c7",
+      "size": 1920,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/contact_constraint.cpp",
+      "sha": "bc2892fcac0e6bcba9da1bbfa2fa54ec1a69d148",
+      "size": 9420,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/contact_constraint.hpp",
+      "sha": "a7f6324f4b63077cf3d4af23e69a1f229a75c8f1",
+      "size": 1937,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/contact_cost.cpp",
+      "sha": "a726e53031de86b90f2ac371214dec25a2106636",
+      "size": 6445,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/contact_cost.hpp",
+      "sha": "e10f48b877ebeddfb010405b2fea0ab3748e874f",
+      "size": 1806,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/control.cpp",
+      "sha": "cf8861dfb25b0ae9ab2df303f090a9dcada9391a",
+      "size": 2304,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/control.hpp",
+      "sha": "5355a7ec7a2e7548f6df9b77bbceb188669ebdd4",
+      "size": 1324,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/cost.cpp",
+      "sha": "881cb8f0628239acaa8286721627ab402bd1c1b0",
+      "size": 11363,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/cost.hpp",
+      "sha": "0ca7dcee6495be86f70fbfd974a05b3785960775",
+      "size": 3656,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/diff_action.cpp",
+      "sha": "9a422cab9e7f81b878929e20238b0aec5aa02605",
+      "size": 40552,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/diff_action.hpp",
+      "sha": "70480b8ec9cc0ed760b5f6de39942259ed9d86c2",
+      "size": 4300,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/guidance.cpp",
+      "sha": "f947de37f634e7d28b0c9141e36ddf52ae812267",
+      "size": 2755,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/guidance.hpp",
+      "sha": "4c96e45942bb2bcba1771c7332f361d84c4f0a7d",
+      "size": 1377,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/impulse.cpp",
+      "sha": "13831e910c73c239a1d353f9e1a6835763970eeb",
+      "size": 4229,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/impulse.hpp",
+      "sha": "a6c14f2b02f44d0f8497c4c7d49e662d3a2c1975",
+      "size": 1719,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/impulse_constraint.cpp",
+      "sha": "fc632529d37e1009a5adfb9b112d0b682f076b65",
+      "size": 8725,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/impulse_constraint.hpp",
+      "sha": "a649ef6b08154060495fa3e3eebc7235497bee2d",
+      "size": 1851,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/impulse_cost.cpp",
+      "sha": "13a03f72c564feeb8d14e6bf2792ff4ba3f9712d",
+      "size": 6054,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/impulse_cost.hpp",
+      "sha": "25f211d5ddcc959127ef871c6c1977b43377d9e6",
+      "size": 1751,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/integrator.cpp",
+      "sha": "ee5a6005f81c5397ee488b76cca33b20ec30d956",
+      "size": 3531,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/integrator.hpp",
+      "sha": "0b1aded3ed239542a4466a22356fe47f55859285",
+      "size": 1682,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/pinocchio_model.cpp",
+      "sha": "2c418f478d86ef53a214ae1fad8ad514e5fdcb0c",
+      "size": 5617,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/pinocchio_model.hpp",
+      "sha": "adbbadc1c8f1a3abbf515863e97f52167ad4c111",
+      "size": 3998,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/pinocchio_model.hxx",
+      "sha": "6922421651abed14afa41e793b722b4d61666ab5",
+      "size": 3754,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/residual.cpp",
+      "sha": "82446f8ac167beee3b233fa110f8eec57d8d8635",
+      "size": 9064,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/residual.hpp",
+      "sha": "9a0625d1f2ed93ed842fb2e88ee613fc7925b643",
+      "size": 2306,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/solver.cpp",
+      "sha": "68bdb455275ef87748e5757b28ed8294e566bca5",
+      "size": 14494,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/solver.hpp",
+      "sha": "0ea1048e2ca0f54b1b4406cf468d55e6f6779658",
+      "size": 5823,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/state.cpp",
+      "sha": "f8036382fcde74fd5607ffbaf5ad03b1b9617932",
+      "size": 3564,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/state.hpp",
+      "sha": "8fe508b51769e4fc98c3dba938c839d80c10c6e7",
+      "size": 1532,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/task.cpp",
+      "sha": "efcdbdcbd7d456e6b80cffec04f7fbd19f49c885",
+      "size": 4885,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/factory/task.hpp",
+      "sha": "c1a6e1dc2cd81f1724baacce73460ef455c422db",
+      "size": 1721,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/random_generator.hpp",
+      "sha": "363a3275235b0ab76d154f136f65bd73e8fc8371",
+      "size": 2128,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/test_actions.cpp",
+      "sha": "dd9aed40430624fb6f0cb1d225376b543e92ccca",
+      "size": 17851,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/test_activations.cpp",
+      "sha": "b22d8fd176a75abdb33638fd97aaa3c31f9a63c1",
+      "size": 10412,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/test_actuation.cpp",
+      "sha": "610a157431825bfa4287f0602d943d95436735e4",
+      "size": 12639,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/test_boxqp.cpp",
+      "sha": "cf9267a5750f03053a2fabb69476a814b0fa9d11",
+      "size": 6281,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/test_codegen.cpp",
+      "sha": "d4424c8cfa275494ec5a0eb281b3060d26df9741",
+      "size": 25564,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/test_constraint_manager.cpp",
+      "sha": "a9d392b7de3e1a25e7174979bdf29a3f1060bf62",
+      "size": 26267,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/test_constraints.cpp",
+      "sha": "d695f414e3e4ad3c5f545145d4d91355e70e53eb",
+      "size": 20367,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/test_contact_constraints.cpp",
+      "sha": "7e3c456664e001a443000cbe7a0c8bd4eb0b7695",
+      "size": 6414,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/test_contact_costs.cpp",
+      "sha": "dabc471d60d527f3d5392e408b630eab7d33dce2",
+      "size": 6673,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/test_contacts.cpp",
+      "sha": "c208c9fe5f5bf3f526a80c5cae63e12531bfbfb8",
+      "size": 17449,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/test_controls.cpp",
+      "sha": "80191098d9a2060556ee8eebc57ee73b23ac2382",
+      "size": 8756,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/test_cop_support.cpp",
+      "sha": "eb8c8f03ed97b7a519fdd51d4477ab8ae5bc561e",
+      "size": 9184,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/test_cost_sum.cpp",
+      "sha": "85043e4c3a06517b079e1927689ef3d3147adb5d",
+      "size": 24619,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/test_costs.cpp",
+      "sha": "26d522c902483eec7771308f654ff016298b9dfe",
+      "size": 20218,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/test_costs_collision.cpp",
+      "sha": "d53124be781a93e990cc4bcd2d1848f6473e8d7b",
+      "size": 11513,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/test_costs_noFF.cpp",
+      "sha": "0fc1dbe85777562027c679a591a2c99b9188ff11",
+      "size": 22722,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/test_diff_actions.cpp",
+      "sha": "7bf389daf7cd426a8a31248334c6f04b37c8c492",
+      "size": 17028,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/test_friction_cone.cpp",
+      "sha": "b29abe525575019da4a1d2c652abaccb2cf87a1f",
+      "size": 14228,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/test_guidance.cpp",
+      "sha": "7d32ad3d00b1d2d521d8be9381f3c219912932e4",
+      "size": 4973,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/test_impulse_constraints.cpp",
+      "sha": "57f96d39e889298099503a359af7d75f27d208cb",
+      "size": 4682,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/test_impulse_costs.cpp",
+      "sha": "3bec2d6056b0127a59791c2183dd4d6f90f68ec3",
+      "size": 6239,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/test_impulses.cpp",
+      "sha": "e35370920c084751d7b6a249a951fe1a90cd01a6",
+      "size": 12261,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/test_multiple_contacts.cpp",
+      "sha": "e78a8c0c9b369d5dea74f7f1f036a37da01cab8a",
+      "size": 36788,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/test_multiple_impulses.cpp",
+      "sha": "702a30497071ad8255005b6fe1e48ef84be44264",
+      "size": 34702,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/test_problem.cpp",
+      "sha": "3cd42772a3407766c65cb1bd3f9e5250788bca05",
+      "size": 32985,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/test_residuals.cpp",
+      "sha": "4a5ccf0041192d2f51f20ab7b600814387f5d697",
+      "size": 27117,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/test_solvers.cpp",
+      "sha": "6e642ef4a84cc02b0d48b434f75f6c54406efc1d",
+      "size": 27631,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/test_states.cpp",
+      "sha": "fdaec9d76e726aacd101951a5d1ee6faa9425844",
+      "size": 27866,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/test_tasks.cpp",
+      "sha": "d970446a2b83948f86309cf5c7e457c33f97fed6",
+      "size": 20322,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/test_wrench_cone.cpp",
+      "sha": "86db83e17c70a55c64672dd98650519f60d725ff",
+      "size": 17574,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/testutils.py",
+      "sha": "a8c0ba34c642669464d2cae334e016265d0a8fc8",
+      "size": 1765,
+      "mode": "100644"
+    },
+    {
+      "path": "unittest/unittest_common.hpp",
+      "sha": "bb3a5998fb1d8a6bf295b8f23e98a9839da62013",
+      "size": 5483,
+      "mode": "100644"
+    }
+  ],
+  "gitlinks": [
+    {
+      "path": "cmake",
+      "sha": "95818ed36ca8124a3a34eb333da9dd6e19d5715f"
+    }
+  ],
+  "license": "BSD-3-Clause",
+  "folder": "projects/crocoddyl",
+  "file_count": 770,
+  "bytes": 5963518,
+  "lfs_pointers": []
+}

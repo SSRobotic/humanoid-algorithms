@@ -1,0 +1,40 @@
+{
+  "repository": "humanoid-algorithms",
+  "url": "https://github.com/SSRobotic/humanoid-algorithms",
+  "projects": [
+    {
+      "slug": "pink-kinematics/pink",
+      "source_url": "https://github.com/pink-kinematics/pink",
+      "commit": "2c333161fc260de93fb7be1dd8d6519d2ecc2df2",
+      "branch": "main",
+      "snapshot": "all tracked file blobs at the pinned commit",
+      "gitlinks": [],
+      "license": "Apache-2.0",
+      "folder": "projects/pink",
+      "file_count": 128,
+      "bytes": 1464304,
+      "lfs_pointers": []
+    },
+    {
+      "slug": "loco-3d/crocoddyl",
+      "source_url": "https://github.com/loco-3d/crocoddyl",
+      "commit": "0d3b1ae9c2f062305f50a01058df12eb28ae0500",
+      "branch": "devel",
+      "snapshot": "all tracked file blobs at the pinned commit",
+      "gitlinks": [
+        {
+          "path": "cmake",
+          "sha": "95818ed36ca8124a3a34eb333da9dd6e19d5715f"
+        }
+      ],
+      "license": "BSD-3-Clause",
+      "folder": "projects/crocoddyl",
+      "file_count": 770,
+      "bytes": 5963518,
+      "lfs_pointers": []
+    }
+  ],
+  "source_file_count": 898,
+  "lfs_pointer_count": 0,
+  "materialized_file_count": 898
+}

@@ -1,0 +1,783 @@
+{
+  "slug": "pink-kinematics/pink",
+  "source_url": "https://github.com/pink-kinematics/pink",
+  "commit": "2c333161fc260de93fb7be1dd8d6519d2ecc2df2",
+  "branch": "main",
+  "snapshot": "all tracked file blobs at the pinned commit",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha": "e9a2990fc54c35a8359dbfe00e306688816c8d71",
+      "size": 150,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/workflows/changelog.yml",
+      "sha": "7b31b574ff233040d9a88eeb47250d735afdda2b",
+      "size": 488,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha": "eb6d88fe82828ab9f7bacbbe35b3305e0078036f",
+      "size": 2137,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "sha": "aa441a6123961795e6ea781f4ec7a483ed0b6f09",
+      "size": 996,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "sha": "c55fe8b49f135034cde32c504c3a6a0788e23edb",
+      "size": 89,
+      "mode": "100644"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha": "6a252c986a3a8ae6744c8949c722a0d17961f08c",
+      "size": 15316,
+      "mode": "100644"
+    },
+    {
+      "path": "CITATION.cff",
+      "sha": "521a21b4039c2f9230e40ec8ca1751bf6861e55d",
+      "size": 1140,
+      "mode": "100644"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "b71d208abdeb30930eee409a446f9ed33538e5b5",
+      "size": 2038,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "mode": "100644"
+    },
+    {
+      "path": "NOTICE",
+      "sha": "9625bcf36d50e820af3123f36c3179046b3e053d",
+      "size": 240,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "sha": "2b107ea319150d92e2f5f8da6374c734b486207e",
+      "size": 11609,
+      "mode": "100644"
+    },
+    {
+      "path": "doc/barriers.rst",
+      "sha": "ee865c4776e57d56e1e1f82255b34d59a4227a29",
+      "size": 168,
+      "mode": "100644"
+    },
+    {
+      "path": "doc/conf.py",
+      "sha": "04da18f9cf5b1aa3028971a8aff5ab16851b4201",
+      "size": 6995,
+      "mode": "100644"
+    },
+    {
+      "path": "doc/css/custom.css",
+      "sha": "d051d85e8edf3ddc4085c2847eefd8dc0f0d7ea6",
+      "size": 1519,
+      "mode": "100644"
+    },
+    {
+      "path": "doc/developer-notes.rst",
+      "sha": "cf3632ac8f9e4b05ab6a4123a0453b174e75bdb5",
+      "size": 1056,
+      "mode": "100644"
+    },
+    {
+      "path": "doc/images/apple-touch-icon-180x180.png",
+      "sha": "1e64820d6f774f0f169bb0a6b02c54ef07b87e97",
+      "size": 18119,
+      "mode": "100644"
+    },
+    {
+      "path": "doc/images/favicon-16x16.png",
+      "sha": "f7b13e201327ea34668628b04728792d699db1bc",
+      "size": 1369,
+      "mode": "100644"
+    },
+    {
+      "path": "doc/images/favicon-32x32.png",
+      "sha": "d5ae02430599d43e1a8007eb2ff9fabcc6e57803",
+      "size": 2745,
+      "mode": "100644"
+    },
+    {
+      "path": "doc/index.rst",
+      "sha": "3fb863b389ce40543933d999ccc11efbb0d173c5",
+      "size": 1025,
+      "mode": "100644"
+    },
+    {
+      "path": "doc/installation.rst",
+      "sha": "4720ef3646fe21c5366fa1afe8fe92da076672ab",
+      "size": 806,
+      "mode": "100644"
+    },
+    {
+      "path": "doc/introduction.rst",
+      "sha": "f2a4626b42195ca452ba5d22d70cd7e118d5213d",
+      "size": 2065,
+      "mode": "100644"
+    },
+    {
+      "path": "doc/inverse-kinematics.rst",
+      "sha": "dd0c76d1a5ee00691fa86d3dbe207180cf7f4bcd",
+      "size": 841,
+      "mode": "100644"
+    },
+    {
+      "path": "doc/limits.rst",
+      "sha": "66852f299f062fbad00be41131c22e0094e36140",
+      "size": 156,
+      "mode": "100644"
+    },
+    {
+      "path": "doc/references.rst",
+      "sha": "05eb6c54f4a9657d681e1b53817d7172efe2a19f",
+      "size": 1294,
+      "mode": "100644"
+    },
+    {
+      "path": "doc/tasks.rst",
+      "sha": "170ce90bcd7b9a1f98a9c52557aa481360d926ee",
+      "size": 150,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/README.md",
+      "sha": "072f4f086e45c191202eabf61da0544752343d77",
+      "size": 3305,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/arm_kinova_gen2.py",
+      "sha": "f0c13acb5feca9fc862517700fa37f3bfcb29d1c",
+      "size": 2620,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/arm_panda.py",
+      "sha": "c0eb83b6214d09819b9f1174029f5216962860fa",
+      "size": 5691,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/arm_panda_manipulability_comparison.py",
+      "sha": "6e903c10bf82504d6dd19d761a68b6c40d932d46",
+      "size": 21949,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/arm_ur3.py",
+      "sha": "e654326aa764a43f414ecad55c8cf8e5363791dc",
+      "size": 2681,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/arm_ur3_sparse_solver.py",
+      "sha": "6405fb98892f34a3065f8cf4018b9b3665ce0784",
+      "size": 3052,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/arm_ur3_velocity_smoothing.py",
+      "sha": "12897e3da73aa4f0f8b262df7afe98b7178a5b59",
+      "size": 5134,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/arm_ur5.py",
+      "sha": "83d338317bbe47bebf3b2585cc363d60375477dd",
+      "size": 2681,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/arm_z1_joint_velocity_tracking.py",
+      "sha": "ff7d705b617b611afd8d7a7fdbafc2b61f2a5bf8",
+      "size": 1796,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/barriers/README.md",
+      "sha": "eeb38be83108034730abb39463a81545c6320b16",
+      "size": 1975,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/barriers/arm_ur5.py",
+      "sha": "b980246df750cbc747c0bcc6db8b140a9f902283",
+      "size": 3784,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/barriers/go2_squat.py",
+      "sha": "4bbaaf77e886832c3fa616ac5ae401763c031150",
+      "size": 3422,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/barriers/iiwa14_spheres_collision.srdf",
+      "sha": "8fb9c7344ad3fe14d2646e1bd927a7cd9575b2c7",
+      "size": 5165,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/barriers/kukas_self_collision.py",
+      "sha": "1685beeb28f809ab4a432fa6754d86194215c940",
+      "size": 7369,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/barriers/meshcat_shapes.py",
+      "sha": "5e297b2fa6323b17caf45f63ddce9de145b593ff",
+      "size": 3217,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/barriers/yumi_self_collision.py",
+      "sha": "80de15f8bb666e63a8b5fbd0a8978db6d7aaf77c",
+      "size": 6346,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/double_pendulum.py",
+      "sha": "e89f8cf8589b2091c2f85d3b19f2bdd5eb3de128",
+      "size": 2651,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/floating_base_velocity_limit.py",
+      "sha": "102a9e9ff5171eb2d97ea0a6f45632b6046f3c45",
+      "size": 2430,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/flying_dual_arm_ur3.py",
+      "sha": "4dec92fc0699a7081c08da6d0a05e74ca8fc0c99",
+      "size": 6947,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/humanoid_draco3.py",
+      "sha": "2ecf78ee3fb5d1ea521e272545038eff48f82a06",
+      "size": 4702,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/humanoid_g1_com.py",
+      "sha": "03b842537bb982bca2ebdacf22262d5950afe814",
+      "size": 3616,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/humanoid_jvrc.py",
+      "sha": "13a8f671bc12bc2637fc8b26fad45b63e466b65f",
+      "size": 3926,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/humanoid_jvrc_com.py",
+      "sha": "594408d23fa2140afd2eeaaff1f4b6cb952d9d0b",
+      "size": 3928,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/humanoid_sigmaban.py",
+      "sha": "4f47a960e98e67c9990bcd1748a1027b0aac449e",
+      "size": 3345,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/inverse_kinematics_piper_viz.py",
+      "sha": "4f7e80cd1001c7ed7c054f28bc61b396d830cd12",
+      "size": 3128,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/inverse_kinematics_ur10.py",
+      "sha": "bf799eb0c20334dbd6ae173840db718ca44d67fa",
+      "size": 2572,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/load_custom_urdf.py",
+      "sha": "acad6f13a0cd915070f12687522f5c3873aabac3",
+      "size": 835,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/meshcat_shapes.py",
+      "sha": "56bb7929cb97e4ea37bc0f639db6403a589e8d4e",
+      "size": 2836,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/mobile_omni_wheeled_robot.py",
+      "sha": "19eabeef5a548286f2aff644d0e4453a49353226",
+      "size": 2639,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/mobile_stretch.py",
+      "sha": "37bf9337e374aa937140551612e3190f4845b587",
+      "size": 3701,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/one_dof_configuration_limit.py",
+      "sha": "47eb843a2ab230361da7d32f20017f36fd3ee026",
+      "size": 3363,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/planar_2dof_manipulability.py",
+      "sha": "52d2493c3fa757d56d534fdd3479c7104ee3c179",
+      "size": 4010,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/robots/double_pendulum.urdf",
+      "sha": "75435c53e1ed869f1ebf5fc2299f7d3bfa7271fd",
+      "size": 4719,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/robots/omnidirectional_wheeled_robot.urdf",
+      "sha": "975e9bf74cbefd72c57aa751ba67649d946674dd",
+      "size": 1903,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/robots/planar_2dof.urdf",
+      "sha": "9940c7d1aafd139d011a3e3209dcd7b7a11b21f8",
+      "size": 3195,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/robots/simple_pendulum.urdf",
+      "sha": "ff44c323414d8901747a3788f649ac514324b3a4",
+      "size": 1480,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/stretch_relative_target.py",
+      "sha": "86a0715a247a57d5d591379744cd6003cc0857b5",
+      "size": 4165,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/stretch_world_target.py",
+      "sha": "b0395ad7a51d4d908f5b5b4d1c6152f272d94658",
+      "size": 3856,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/upkie_crouching.py",
+      "sha": "c7a3c5f52ada95560f5e7105876ed130cf05a3be",
+      "size": 3333,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/upkie_rolling.py",
+      "sha": "4d8b23837ed81d65d618f7f616b72644c6779a12",
+      "size": 3737,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/visualize_in_meshcat.py",
+      "sha": "af1a6e682bfda186c4fd1f6c62c7e1f6fc23452f",
+      "size": 3399,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/visualize_in_yourdfpy.py",
+      "sha": "ca6eaef98422297d5147e5b78538d1914ac88381",
+      "size": 3156,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/__init__.py",
+      "sha": "4ba0c7944daeb5af44e422a90991636de8b7929d",
+      "size": 731,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/barriers/__init__.py",
+      "sha": "c2e75950040bd80498264134933c353481a4ab4e",
+      "size": 420,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/barriers/barrier.py",
+      "sha": "7d670c26584d21f8992943a74714c4e14d9ed972",
+      "size": 9206,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/barriers/body_spherical_barrier.py",
+      "sha": "1b505abdeb891a61e134f759e49b77234b006b74",
+      "size": 5812,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/barriers/position_barrier.py",
+      "sha": "22f9645a7148b072a2965d9d4b9dcdeb20224a84",
+      "size": 5052,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/barriers/self_collision_barrier.py",
+      "sha": "25556ff3bc95ee1be6fc44de5e4941fefa60c1e1",
+      "size": 8075,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/configuration.py",
+      "sha": "8268eaafe09c90ae5d59ad784e2507c9041ae55d",
+      "size": 10551,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/exceptions.py",
+      "sha": "ac67f65a36bd251aab8ba4011df59b906d1cd8b0",
+      "size": 3256,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/limits/__init__.py",
+      "sha": "41445fe0f9ca068c8d2a105a13b88aaa30938ff4",
+      "size": 837,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/limits/acceleration_limit.py",
+      "sha": "50fd481172be8204627fd64831098edf1b75c9cd",
+      "size": 7097,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/limits/configuration_limit.py",
+      "sha": "a5db7d408f43248e2690f8bdd248481a312569cd",
+      "size": 5163,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/limits/floating_base_velocity_limit.py",
+      "sha": "80019757fffdfdea2bc4dfea6cf5dfdff74396db",
+      "size": 4976,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/limits/limit.py",
+      "sha": "3c48feeaa7c28b6c713495bb3d294f09b11f8b3d",
+      "size": 1209,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/limits/velocity_limit.py",
+      "sha": "36612e640d7867998f53343bc952f66ee2a322c8",
+      "size": 3988,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/solve_ik.py",
+      "sha": "01290928d2ac96282f070f5f545b3f2749807ac9",
+      "size": 9997,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/tasks/__init__.py",
+      "sha": "6d94aa2f3b93d9c84a1080aed75e8213777f071b",
+      "size": 962,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/tasks/com_task.py",
+      "sha": "85cd9c575343b3dc55b3602e57f68bf0316b60f8",
+      "size": 5213,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/tasks/damping_task.py",
+      "sha": "8093322f1f98a624e4e6951f4b2db14bb445f4d1",
+      "size": 1385,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/tasks/frame_task.py",
+      "sha": "4365fd11c054ccc9feabfe8beddf596ca02ce92e",
+      "size": 10097,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/tasks/joint_coupling_task.py",
+      "sha": "f839c667e7ce7e9117f971c09b498f223f98404d",
+      "size": 3721,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/tasks/joint_velocity_task.py",
+      "sha": "8cd714ed1d2b3844a403a5f59be6644339d57a0b",
+      "size": 3769,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/tasks/linear_holonomic_task.py",
+      "sha": "4eba3b76c74baa84d5ff2045df4552ee9ca5bd0d",
+      "size": 7340,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/tasks/low_acceleration_task.py",
+      "sha": "5900d5df89a9077e9a7ac178fc04362074141286",
+      "size": 2671,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/tasks/manipulability_task.py",
+      "sha": "057231d840d13d6a0480bd44d2370bf7a9b43c61",
+      "size": 15818,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/tasks/omniwheel_task.py",
+      "sha": "584a1f8158e897a4604d7f4a78321c3c4cf06d6f",
+      "size": 2777,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/tasks/posture_task.py",
+      "sha": "a8182c5a40c10d56ce7a12dd70000cc5b64fabc1",
+      "size": 4541,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/tasks/relative_frame_task.py",
+      "sha": "b65d31eb9d52d578d148f5471909a9cba244154c",
+      "size": 10070,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/tasks/rolling_task.py",
+      "sha": "efd12c75ddbfbe098b94cffdac2d3beb393cce27",
+      "size": 5422,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/tasks/task.py",
+      "sha": "52ff1a4723454959413927945bb0efe96fa1ad40",
+      "size": 6633,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/utils.py",
+      "sha": "cb45515b4fd06a57d1136441d3d0db83b058e4f8",
+      "size": 4128,
+      "mode": "100644"
+    },
+    {
+      "path": "pink/visualization.py",
+      "sha": "ffe9cabcd3845a1a9ae44b6dd21713fafea4110a",
+      "size": 1735,
+      "mode": "100644"
+    },
+    {
+      "path": "pixi.lock",
+      "sha": "168044d568d6b93a14978f34cf3a7d6e50e738aa",
+      "size": 750822,
+      "mode": "100644"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "981fc696724d865af67f9632479a42280a4fd8bd",
+      "size": 5399,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/__init__.py",
+      "sha": "6c13f648c873347eb1e497593077c5c229bc9c72",
+      "size": 162,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/iiwa_exclude_pairs.srdf",
+      "sha": "fd2c30c4bf9540e21855a1efff6168de03625b07",
+      "size": 2388,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_acceleration_limit.py",
+      "sha": "279fb805b126a76ed225d76c242906557ea3ca5b",
+      "size": 5583,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_barrier.py",
+      "sha": "7a30431dbacdc98dd8aed1012ba512a1cb8a6041",
+      "size": 4160,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_body_spherical_barrier.py",
+      "sha": "65c7cc48d3464e57907fa10b0701a9b54402f259",
+      "size": 2774,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_com_task.py",
+      "sha": "9efd8c7a41b11866383caeaf1728023d4493a1ec",
+      "size": 4835,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_configuration.py",
+      "sha": "5ff6f293fa93023c2651463aced83a49f59615f6",
+      "size": 14341,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_configuration_limit.py",
+      "sha": "3ac8bdad59e19a5ca2058b9719450adc882ce61a",
+      "size": 3815,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_damping_task.py",
+      "sha": "e714f6eec618cd53038932f862a0e545d33a885f",
+      "size": 1219,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_floating_base_velocity_limit.py",
+      "sha": "d11e29dccccc5fdd2c17da3fe2c555c7d7cf9aae",
+      "size": 6508,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_frame_task.py",
+      "sha": "b4e8e4043ba4cf279471d0900d425ad47a24eabe",
+      "size": 9941,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_jacobians.py",
+      "sha": "7e51882ee12126e4c426d1ca2c9d2df02977d95f",
+      "size": 3243,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_joint_coupling_task.py",
+      "sha": "03aaaa91251c4ff8b6ef516a33e88acfab593310",
+      "size": 2393,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_joint_velocity_task.py",
+      "sha": "97648b4a9368240775ca16a204d6597566da465a",
+      "size": 2719,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_limits.py",
+      "sha": "76f195c67af700a7621418fff15e76873f117c9a",
+      "size": 3258,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_linear_holonomic_task.py",
+      "sha": "1cd50f2489d7290ae09fec74b757bbed2338f9cf",
+      "size": 4542,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_low_acceleration_task.py",
+      "sha": "77ffcf9c5189de1fcfd00478f268a2a349c7c88c",
+      "size": 1418,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_manipulability_task.py",
+      "sha": "0587c48c3c57dbe3cb1014f5fad949663233155f",
+      "size": 14403,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_omniwheel_task.py",
+      "sha": "f6e73fdaded82a5c7637e64c0625f7319fc4c7dd",
+      "size": 1349,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_position_barrier.py",
+      "sha": "3b71e5f903465144f8f12bcd40ff2d0131add47c",
+      "size": 3019,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_posture_task.py",
+      "sha": "37ab4fcc5660f4d4e67f11a052ac9983ada56e08",
+      "size": 3735,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_relative_frame_task.py",
+      "sha": "61b61aaea329663dbc5122a8cf5136fe7623548f",
+      "size": 8600,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_rolling_task.py",
+      "sha": "8f050fd614aa58eef043cebaba6b6a49e5c10144",
+      "size": 1375,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_self_collision_barrier.py",
+      "sha": "21377e68424b1773abd1d1d86893e57c1ab650ac",
+      "size": 5557,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_solve_ik.py",
+      "sha": "10d4786126d34cef91600bb579bb42f3106bba4b",
+      "size": 18202,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_utils.py",
+      "sha": "28b11b5c8d677af79493756cf7a7abe1ece83615",
+      "size": 3288,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_velocity_limit.py",
+      "sha": "2f1cff93414dff19163bf6ae10795a090fe08959",
+      "size": 2277,
+      "mode": "100644"
+    },
+    {
+      "path": "uv.lock",
+      "sha": "e741e95d3c320ce30ef8b965601de82fa6374cb1",
+      "size": 158700,
+      "mode": "100644"
+    }
+  ],
+  "gitlinks": [],
+  "license": "Apache-2.0",
+  "folder": "projects/pink",
+  "file_count": 128,
+  "bytes": 1464304,
+  "lfs_pointers": []
+}

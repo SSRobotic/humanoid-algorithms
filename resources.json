@@ -64,7 +64,15 @@
     "url": "https://github.com/leggedrobotics/rsl_rl",
     "upstream": "https://github.com/leggedrobotics/rsl_rl",
     "license": "NOASSERTION",
-    "verifiedOn": "2026-10-10"
+    "verifiedOn": "2026-10-10",
+    "localCopies": [
+      {
+        "repository": "humanoid-robot-learning",
+        "url": "https://github.com/SSRobotic/humanoid-robot-learning/tree/main/projects/rsl_rl",
+        "commit": "a11f6792f11b17cc76f05be2273c7b8a84095e93",
+        "fileCount": 109
+      }
+    ]
   },
   {
     "id": "moveit-moveit2",
@@ -109,7 +117,15 @@
     "url": "https://github.com/stack-of-tasks/tsid",
     "upstream": "https://github.com/stack-of-tasks/tsid",
     "license": "BSD-2-Clause",
-    "verifiedOn": "2026-10-10"
+    "verifiedOn": "2026-10-10",
+    "localCopies": [
+      {
+        "repository": "humanoid-whole-body-control",
+        "url": "https://github.com/SSRobotic/humanoid-whole-body-control/tree/main/projects/tsid",
+        "commit": "25762a26464d10f6a2b1becc87f6e9a13c24c44b",
+        "fileCount": 319
+      }
+    ]
   },
   {
     "id": "loco-3d-crocoddyl",
@@ -131,7 +147,15 @@
     "url": "https://github.com/loco-3d/crocoddyl",
     "upstream": "https://github.com/loco-3d/crocoddyl",
     "license": "BSD-3-Clause",
-    "verifiedOn": "2026-10-10"
+    "verifiedOn": "2026-10-10",
+    "localCopies": [
+      {
+        "repository": "humanoid-algorithms",
+        "url": "https://github.com/SSRobotic/humanoid-algorithms/tree/main/projects/crocoddyl",
+        "commit": "0d3b1ae9c2f062305f50a01058df12eb28ae0500",
+        "fileCount": 770
+      }
+    ]
   },
   {
     "id": "leggedrobotics-ocs2",
@@ -176,7 +200,15 @@
     "url": "https://github.com/pink-kinematics/pink",
     "upstream": "https://github.com/pink-kinematics/pink",
     "license": "Apache-2.0",
-    "verifiedOn": "2026-10-10"
+    "verifiedOn": "2026-10-10",
+    "localCopies": [
+      {
+        "repository": "humanoid-algorithms",
+        "url": "https://github.com/SSRobotic/humanoid-algorithms/tree/main/projects/pink",
+        "commit": "2c333161fc260de93fb7be1dd8d6519d2ecc2df2",
+        "fileCount": 128
+      }
+    ]
   },
   {
     "id": "ompl-ompl",
